@@ -2,8 +2,8 @@ name: JobMatch Automated Monitor
 
 on:
   schedule:
-    # 預設每小時第 0 分鐘自動執行一次 (Cron 時間為 UTC，可依需求自行修改 Cron 設定)
-    - cron: '0 * * * *'
+    # 每 6 小時自動執行一次，UTC 0/6/12/18 點整 (台灣時間 8/14/20/2 點) (可依需求自行修改)
+    - cron: '0 */6 * * *'
   workflow_dispatch:
     # 支援在 GitHub Actions UI 介面上手動點擊按鈕觸發執行
 

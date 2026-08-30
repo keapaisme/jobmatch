@@ -1,0 +1,210 @@
+{
+  "last_weekly_renewal": 1788120616.0422192,
+  "keyword_scores": {
+    "AI": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "ChatGPT": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "簡報": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "PPT": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "排版": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "美化": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "企劃": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "Notion": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "短影音": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "提案": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "教學": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "教會": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "AI課程": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "教人": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "使用教學": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "AI工具": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "生成式AI": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "Midjourney": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "Stable Diffusion": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "Claude": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "Gemini": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "自動化流程": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "n8n": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "Zapier": {
+      "score": 20,
+      "category": "ai_planning",
+      "created_at": 1788120616.04222
+    },
+    "爬蟲": {
+      "score": 25,
+      "category": "data_automation",
+      "created_at": 1788120616.04222
+    },
+    "抓資料": {
+      "score": 25,
+      "category": "data_automation",
+      "created_at": 1788120616.04222
+    },
+    "轉檔": {
+      "score": 25,
+      "category": "data_automation",
+      "created_at": 1788120616.04222
+    },
+    "整理資料": {
+      "score": 25,
+      "category": "data_automation",
+      "created_at": 1788120616.04222
+    },
+    "VBA": {
+      "score": 25,
+      "category": "data_automation",
+      "created_at": 1788120616.04222
+    },
+    "Excel": {
+      "score": 25,
+      "category": "data_automation",
+      "created_at": 1788120616.04222
+    },
+    "建檔": {
+      "score": 25,
+      "category": "data_automation",
+      "created_at": 1788120616.04222
+    },
+    "資料處理": {
+      "score": 25,
+      "category": "data_automation",
+      "created_at": 1788120616.04222
+    },
+    "API": {
+      "score": 25,
+      "category": "data_automation",
+      "created_at": 1788120616.04222
+    },
+    "自動化": {
+      "score": 25,
+      "category": "data_automation",
+      "created_at": 1788120616.04222
+    },
+    "日文急件": {
+      "score": 18,
+      "category": "japanese_niche",
+      "created_at": 1788120616.04222
+    },
+    "日本代打": {
+      "score": 18,
+      "category": "japanese_niche",
+      "created_at": 1788120616.04222
+    },
+    "代聯絡": {
+      "score": 18,
+      "category": "japanese_niche",
+      "created_at": 1788120616.04222
+    },
+    "日文 商務": {
+      "score": 18,
+      "category": "japanese_niche",
+      "created_at": 1788120616.04222
+    },
+    "日翻中 急": {
+      "score": 18,
+      "category": "japanese_niche",
+      "created_at": 1788120616.04222
+    },
+    "特急": {
+      "score": 18,
+      "category": "japanese_niche",
+      "created_at": 1788120616.04222
+    },
+    "ai_planning": {
+      "score": 19,
+      "category": "general",
+      "created_at": 1788120660.7606037
+    }
+  }
+}

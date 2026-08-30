@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>訊息差副業機會分析系統 - 真實數據儀表板</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #0B0F19;
+      --panel-bg: rgba(15, 23, 42, 0.75);
+      --panel-border: rgba(255, 255, 255, 0.1);
+      --accent-cyan: #00F2FE;
+      --accent-blue: #3B82F6;
+      --accent-amber: #F59E0B;
+      --accent-green: #10B981;
+      --accent-red: #EF4444;
+      --text-main: #F8FAFC;
+      --text-sub: #94A3B8;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Noto Sans TC', 'Inter', sans-serif;
+      min-height: 100vh;
+      padding: 16px;
+      max-width: 100%;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 10% 20%, rgba(0, 242, 254, 0.03) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(59, 130, 246, 0.03) 0%, transparent 40%);
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 20px;
+      background: var(--panel-bg);
+      border: 1px solid var(--panel-border);
+      backdrop-filter: blur(16px);
+      border-radius: 14px;
+      margin-bottom: 16px;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .brand-text h1 {
+      font-size: 16px;
+      font-weight: 800;
+      background: linear-gradient(90deg, #FFFFFF, var(--accent-cyan));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    #lastUpdated {
+      font-size: 11px;
+      color: var(--text-sub);
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 16px;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .stat-card {
+      background: var(--panel-bg);
+      border: 1px solid var(--panel-border);
+      backdrop-filter: blur(16px);
+      border-radius: 12px;
+      padding: 12px;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .stat-card.c-cyan { border-top: 3px solid var(--accent-cyan); }
+    .stat-card.c-green { border-top: 3px solid var(--accent-green); }
+    .stat-card.c-blue { border-top: 3px solid var(--accent-blue); }
+    .stat-card.c-red { border-top: 3px solid var(--accent-red); }
+
+    .stat-label {
+      font-size: 11px;
+      color: var(--text-sub);
+      margin-bottom: 4px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    .stat-val {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--text-main);
+    }
+
+    .main-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 16px;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .panel {
+      background: var(--panel-bg);
+      border: 1px solid var(--panel-border);
+      backdrop-filter: blur(16px);
+      border-radius: 14px;
+      padding: 16px;
+      width: 100%;
+      max-width: 100%;
+      overflow: hidden;
+    }
+
+    .panel-title {
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .chart-box {
+      position: relative;
+      height: 240px;
+      width: 100%;
+      max-width: 100%;
+      overflow: hidden;
+    }
+
+    .message-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      width: 100%;
+    }
+
+    .msg-card {
+      background: rgba(30, 41, 59, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 14px;
+      width: 100%;
+      max-width: 100%;
+      overflow: hidden;
+    }
+
+    .msg-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      width: 100%;
+    }
+
+    .msg-title-box {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex: 1;
+      min-width: 0;
+    }
+
+    .platform-tag {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 4px;
+      background: rgba(59, 130, 246, 0.2);
+      color: #60A5FA;
+      white-space: nowrap;
+    }
+
+    .msg-title-link {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-main);
+      text-decoration: none;
+      line-height: 1.4;
+      word-break: break-word;
+      display: inline-block;
+    }
+
+    .msg-title-link:hover {
+      color: var(--accent-cyan);
+    }
+
+    .coord-badge {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(0, 242, 254, 0.3);
+      padding: 4px 8px;
+      border-radius: 8px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .coord-val {
+      font-weight: 700;
+      color: var(--accent-cyan);
+    }
+
+    .score-pill {
+      font-weight: 800;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    .score-pill.high { background: rgba(16, 185, 129, 0.2); color: var(--accent-green); }
+    .score-pill.mid { background: rgba(245, 158, 11, 0.2); color: var(--accent-amber); }
+
+    .vector-values {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      background: rgba(15, 23, 42, 0.4);
+      padding: 6px 10px;
+      border-radius: 8px;
+      margin-top: 8px;
+      margin-bottom: 4px;
+      width: 100%;
+      font-size: 11px;
+    }
+
+    .vec-val-item {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .vec-val-lbl {
+      color: var(--text-sub);
+    }
+
+    .vec-val-num {
+      font-weight: 700;
+      color: var(--accent-cyan);
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .msg-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11px;
+      color: var(--text-sub);
+      margin-top: 6px;
+    }
+
+    /* iPhone 11 & 手機版 RWD 自適應 */
+    @media (max-width: 768px) {
+      body {
+        padding: 8px;
+      }
+      .header {
+        padding: 10px 14px;
+        margin-bottom: 12px;
+      }
+      .brand-text h1 {
+        font-size: 14px;
+      }
+      .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        margin-bottom: 12px;
+      }
+      .stat-val {
+        font-size: 16px;
+      }
+      .main-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-bottom: 12px;
+        width: 100%;
+      }
+      .chart-box {
+        height: 180px; /* 緊湊排版，防溢出 */
+        width: 100%;
+      }
+      .msg-header {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+      }
+      .msg-title-box {
+        width: 100%;
+      }
+      .coord-badge {
+        align-self: flex-start;
+      }
+      .vector-values {
+        gap: 8px;
+        padding: 6px 8px;
+        font-size: 10px;
+      }
+    }
+
+    /* 關鍵字標籤雲 (樣式一) */
+    .keyword-groups {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+    .keyword-cat-row {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .keyword-cat-name {
+      font-size: 9px;
+      font-weight: 800;
+      color: var(--text-sub);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .keyword-tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      max-height: 46px;
+      overflow: hidden;
+    }
+    .keyword-tag {
+      font-size: 10px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--panel-border);
+      color: var(--text-main);
+      padding: 2px 6px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .keyword-tag:hover {
+      border-color: var(--accent-cyan);
+      color: var(--accent-cyan);
+      background: rgba(0, 242, 254, 0.08);
+    }
+    .keyword-tag.active {
+      background: rgba(0, 242, 254, 0.15);
+      border-color: var(--accent-cyan);
+      color: var(--accent-cyan);
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="brand-text">
+      <h1>訊息差副業機會分析系統 (Job Finder)</h1>
+    </div>
+    <span id="lastUpdated">更新中...</span>
+  </header>
+
+  <section class="stats-grid">
+    <div class="stat-card c-cyan">
+      <div class="stat-label">採集量</div>
+      <div class="stat-val" id="statSeen">0</div>
+    </div>
+    <div class="stat-card c-green">
+      <div class="stat-label">商機</div>
+      <div class="stat-val" id="statHigh">0</div>
+    </div>
+    <div class="stat-card c-blue">
+      <div class="stat-label">已防重</div>
+      <div class="stat-val" id="statDedup">0</div>
+    </div>
+    <div class="stat-card c-red">
+      <div class="stat-label">反饋庫</div>
+      <div class="stat-val" id="statFeedback">0</div>
+    </div>
+  </section>
+
+  <section class="main-grid">
+    <div class="panel">
+      <div class="panel-title">
+        <span>2D 商機矩陣 (預算 vs 急迫)</span>
+      </div>
+      <div class="chart-box">
+        <canvas id="scatterChart"></canvas>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">
+        <span>商機特徵雷達</span>
+      </div>
+      <div class="chart-box">
+        <canvas id="radarChart"></canvas>
+      </div>
+      <div id="keywordBlock" style="margin-top: 12px; border-top: 1px solid var(--panel-border); padding-top: 12px;">
+        <div style="font-size: 12px; font-weight: 700; color: var(--text-main); margin-bottom: 8px;">🎯 監控關鍵字 (輕觸過濾)</div>
+        <div id="keywordGroups" class="keyword-groups">
+          <!-- Dynamically Rendered -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-title">
+      <span>最新匹配商機列表</span>
+    </div>
+    <div class="message-list" id="msgListContainer">
+      <!-- Dynamic -->
+    </div>
+  </section>
+
+  <script>
+    let scatterChartInst = null;
+    let radarChartInst = null;
+    let chartsInitialized = false;
+    let selectedKeyword = null;
+    let currentDashboardData = null;
+
+    async function loadData() {
+      const GCS_BASE = 'https://storage.googleapis.com/job-finder-dashboard-live';
+      const LOCAL_PATH = 'storage/dashboard_data.json';
+      const dataUrls = [
+        `${GCS_BASE}/storage/dashboard_data.json`,
+        LOCAL_PATH
+      ];
+
+      for (const dataUrl of dataUrls) {
+        try {
+          const timestamp = Date.now();
+          const resp = await fetch(`${dataUrl}?t=${timestamp}`, {
+            cache: 'no-store',
+            headers: { 'Cache-Control': 'no-cache' }
+          });
+          if (resp.ok) {
+            const data = await resp.json();
+            currentDashboardData = data;
+            renderDashboard(data);
+            return;
+          }
+        } catch (e) {
+          console.log(`資料來源讀取失敗: ${dataUrl}`, e);
+        }
+      }
+    }
+
+    function toggleKeywordFilter(kw) {
+      if (selectedKeyword === kw) {
+        selectedKeyword = null; // 取消過濾
+      } else {
+        selectedKeyword = kw; // 套用過濾
+      }
+      if (currentDashboardData) {
+        renderDashboard(currentDashboardData);
+      }
+    }
+
+    function renderDashboard(data) {
+      if (data.updated_at) {
+        const timePart = data.updated_at.split(' ')[1] || '';
+        document.getElementById('lastUpdated').textContent = `更新: ${timePart.substring(0, 5)}`;
+      }
+      
+      document.getElementById('statSeen').textContent = data.stats.total_seen || 0;
+      document.getElementById('statHigh').textContent = data.stats.high_value_count || 0;
+      document.getElementById('statDedup').textContent = data.stats.deduplicated_count || 0;
+      document.getElementById('statFeedback').textContent = data.stats.feedback_count || 0;
+
+      // 1. 渲染關鍵字標籤雲 (樣式一) - 僅顯示有資料筆數的關鍵字，每種類別最多顯示 2 行 (由 CSS max-height 限制)
+      const keywordGroupsContainer = document.getElementById('keywordGroups');
+      if (keywordGroupsContainer && data.keywords) {
+        keywordGroupsContainer.innerHTML = '';
+        const catNames = {
+          'data_automation': '數據自動化',
+          'ai_planning': 'AI套利架設',
+          'japanese_niche': '日文稀缺',
+          'other': '其它字詞'
+        };
+
+        const opps = data.opportunities || [];
+
+        for (const [catCode, kws] of Object.entries(data.keywords)) {
+          if (!kws || kws.length === 0) continue;
+          
+          // 篩選出當前有資料的關鍵字，並計算筆數
+          const activeKwsWithCounts = [];
+          kws.forEach(kw => {
+            const count = opps.filter(item => 
+              item.title.toLowerCase().includes(kw.toLowerCase())
+            ).length;
+            if (count > 0) {
+              activeKwsWithCounts.push({ kw, count });
+            }
+          });
+
+          // 如果此分類下沒有任何有匹配筆數的關鍵字，則直接不顯示此類別
+          if (activeKwsWithCounts.length === 0) continue;
+
+          const label = catNames[catCode] || catCode;
+          
+          const row = document.createElement('div');
+          row.className = 'keyword-cat-row';
+          
+          const catTitle = document.createElement('span');
+          catTitle.className = 'keyword-cat-name';
+          catTitle.textContent = label;
+          row.appendChild(catTitle);
+          
+          const list = document.createElement('div');
+          list.className = 'keyword-tag-list';
+          
+          activeKwsWithCounts.forEach(({ kw, count }) => {
+            const tag = document.createElement('span');
+            tag.className = `keyword-tag ${selectedKeyword === kw ? 'active' : ''}`;
+            tag.textContent = `${kw} (${count})`;
+            tag.onclick = () => toggleKeywordFilter(kw);
+            list.appendChild(tag);
+          });
+          
+          row.appendChild(list);
+          keywordGroupsContainer.appendChild(row);
+        }
+      }
+
+      const container = document.getElementById('msgListContainer');
+      container.innerHTML = '';
+
+      const opps = data.opportunities || [];
+      if (opps.length === 0) {
+        container.innerHTML = `<div style="text-align:center; padding:40px; color:#94A3B8;">尚無匹配商機</div>`;
+        return;
+      }
+
+      // 2. 根據點擊選中的關鍵字進行過濾
+      let filteredOpps = opps;
+      if (selectedKeyword) {
+        filteredOpps = opps.filter(item => 
+          item.title.toLowerCase().includes(selectedKeyword.toLowerCase())
+        );
+      }
+
+      if (filteredOpps.length === 0) {
+        container.innerHTML = `<div style="text-align:center; padding:40px; color:#94A3B8;">此關鍵字無匹配案件</div>`;
+        return;
+      }
+
+      filteredOpps.forEach(item => {
+        const yStr = item.y_urgency >= 0 ? `+${item.y_urgency}` : `${item.y_urgency}`;
+        const vec = item.vector || {};
+        const scoreClass = item.score >= 80 ? 'high' : 'mid';
+        
+        let shortTime = item.created_at || '';
+        if (shortTime.length >= 16) {
+          shortTime = shortTime.substring(5, 16);
+        }
+
+        const cardHtml = `
+          <div class="msg-card">
+            <div class="msg-header">
+              <div class="msg-title-box">
+                <span class="platform-tag">${item.source}</span>
+                <a href="${item.url}" target="_blank" class="msg-title-link">${item.title}</a>
+              </div>
+              <div class="coord-badge">
+                <span class="coord-val">(${item.x_budget}, ${yStr})</span>
+                <span class="score-pill ${scoreClass}">${item.score}分</span>
+              </div>
+            </div>
+            <div class="vector-values">
+              <span class="vec-val-item"><span class="vec-val-lbl">急迫:</span><span class="vec-val-num">${Math.round((vec.urgency||0)*100)}%</span></span>
+              <span class="vec-val-item"><span class="vec-val-lbl">預算:</span><span class="vec-val-num">${Math.round((vec.budget||0)*100)}%</span></span>
+              <span class="vec-val-item"><span class="vec-val-lbl">匹配:</span><span class="vec-val-num">${Math.round((vec.skill_fit||0)*100)}%</span></span>
+              <span class="vec-val-item"><span class="vec-val-lbl">低競:</span><span class="vec-val-num">${Math.round((vec.low_competition||0)*100)}%</span></span>
+              <span class="vec-val-item"><span class="vec-val-lbl">新鮮:</span><span class="vec-val-num">${Math.round((vec.freshness||0)*100)}%</span></span>
+            </div>
+            <div class="msg-footer">
+              <span>⏱️ ${shortTime}</span>
+            </div>
+          </div>
+        `;
+        container.innerHTML += cardHtml;
+      });
+
+      // 圖表只在首次進入畫面時繪製一次，後續靜默更新不重繪/不閃爍
+      if (!chartsInitialized) {
+        const scatterPoints = opps.map(o => {
+          const tags = [];
+          if (o.source) tags.push(o.source);
+          
+          // 提取中括號、方括號內的標籤（如【遠端】）
+          const brackets = o.title.match(/[【\[]([^】\]]+)[】\]]/g);
+          if (brackets) {
+            brackets.forEach(b => {
+              const clean = b.replace(/[【】\[\]]/g, '').trim();
+              if (clean && clean.length <= 6 && tags.length < 3) {
+                tags.push(clean);
+              }
+            });
+          }
+          // 不夠 3 個標籤時，截取標題前段作為標籤
+          if (tags.length < 3) {
+            const cleanTitle = o.title.replace(/[【\[][^】\]]+[】\]]/g, '').trim();
+            if (cleanTitle) {
+              tags.push(cleanTitle.substring(0, 8));
+            }
+          }
+          return {
+            x: o.x_budget,
+            y: o.y_urgency,
+            tags: tags.slice(0, 3)
+          };
+        });
+        initScatterChart(scatterPoints);
+        initRadarChart(opps);
+        chartsInitialized = true;
+      }
+    }
+
+    function initScatterChart(points) {
+      const ctx = document.getElementById('scatterChart').getContext('2d');
+      if (scatterChartInst) scatterChartInst.destroy();
+      scatterChartInst = new Chart(ctx, {
+        type: 'scatter',
+        data: {
+          datasets: [{
+            data: points,
+            backgroundColor: '#00F2FE',
+            pointRadius: 6,
+            pointHoverRadius: 9
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            x: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#94A3B8', font: { size: 10 } }, min: 0, max: 100 },
+            y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#94A3B8', font: { size: 10 } }, min: -2, max: 2 }
+          },
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: function(ctx) {
+                  const pt = ctx.raw;
+                  const tagsStr = pt.tags ? pt.tags.join(' | ') : '';
+                  return [`${tagsStr}`, `座標: (${pt.x}, ${pt.y})`];
+                }
+              }
+            }
+          }
+        }
+      });
+    }
+
+    function initRadarChart(opps) {
+      let avgU = 0, avgB = 0, avgS = 0, avgC = 0, avgF = 0;
+      if (opps.length > 0) {
+        opps.forEach(o => {
+          const v = o.vector || {};
+          avgU += (v.urgency || 0);
+          avgB += (v.budget || 0);
+          avgS += (v.skill_fit || 0);
+          avgC += (v.low_competition || 0);
+          avgF += (v.freshness || 0);
+        });
+        avgU = Math.round((avgU / opps.length) * 100);
+        avgB = Math.round((avgB / opps.length) * 100);
+        avgS = Math.round((avgS / opps.length) * 100);
+        avgC = Math.round((avgC / opps.length) * 100);
+        avgF = Math.round((avgF / opps.length) * 100);
+      }
+
+      const ctx = document.getElementById('radarChart').getContext('2d');
+      if (radarChartInst) radarChartInst.destroy();
+      radarChartInst = new Chart(ctx, {
+        type: 'radar',
+        data: {
+          labels: ['急迫', '預算', '匹配', '低競', '新鮮'],
+          datasets: [{
+            data: [avgU, avgB, avgS, avgC, avgF],
+            fill: true,
+            backgroundColor: 'rgba(0, 242, 254, 0.15)',
+            borderColor: '#00F2FE',
+            pointBackgroundColor: '#00F2FE',
+            pointRadius: 3
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: { 
+            r: { 
+              angleLines: { color: 'rgba(255,255,255,0.05)' },
+              grid: { color: 'rgba(255,255,255,0.05)' }, 
+              pointLabels: { color: '#94A3B8', font: { size: 9 } },
+              ticks: { display: false }
+            } 
+          },
+          plugins: { legend: { display: false } }
+        }
+      });
+    }
+
+    loadData();
+    setInterval(loadData, 10000);
+  </script>
+</body>
+</html>

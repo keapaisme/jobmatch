@@ -43,9 +43,10 @@ jobs:
 
       - name: 💾 Commit & Push state files (seen_urls & db)
         uses: stefanzweifel/git-auto-commit-action@v5
+        continue-on-error: true
         with:
           commit_message: "auto: update seen_urls and keyword states [skip ci]"
-          file_pattern: "seen_urls.txt keywords_state.json storage/job_finder.db storage/dashboard_data.json"
+          file_pattern: "seen_urls.txt keywords_state.json storage/opportunities.db storage/dashboard_data.json"
           commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
 
       - name: 🌐 Deploy Dashboard to GitHub Pages

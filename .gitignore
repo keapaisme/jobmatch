@@ -1,0 +1,30 @@
+# 環境變數與敏感金鑰
+.env
+*.env
+.env.*
+
+# 治理、日誌、歷史備份 (僅留存本地端，不上傳 Git)
+bak/
+*.bak*
+日誌/
+.agents/
+
+# 隱私保護：阻擋 Markdown 文件 (只允許特製版 README.md)
+*.md
+!README.md
+
+# 隱私保護：圖片名字一律不顯現 (阻擋所有圖片檔)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.webp
+
+# Python 與系統暫存
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/
+

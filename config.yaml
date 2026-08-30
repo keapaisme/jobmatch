@@ -1,0 +1,168 @@
+evaluator:
+  # ai_api_key: <YOUR_NVIDIA_API_KEY>
+  ai_api_url: https://integrate.api.nvidia.com/v1/chat/completions
+  allowed_quadrants:
+  - Q1
+  - Q2
+  cold_start_days: 14
+  enabled: true
+  golden_capacity: 80
+  min_hourly_wage: 350
+  model: meta/llama-3.1-70b-instruct
+  purge_ratio: 0.44
+global_exclude:
+- 【居家遠端】n8n 自動化 專
+- intern
+- 'Re: [請益] claude'
+- '[名片]'
+- '[自我介紹]'
+- 分享
+- 這個月需要設立有限公司
+- 自介
+- 兼職助理
+- 婚禮婚紗美編修圖人員
+- AI影像辨識標註師 (遠端兼職
+- 舞蹈老師
+- 行政助理
+- 補習班
+- 輪班
+- word 排版 10分鐘內可以
+- 實習
+- 舞蹈
+- 實習生
+- 黑名單
+- 問題
+- 工讀生
+- 駐點
+- 長期兼職
+- '[作品集]'
+- 門市
+- 情報
+- 打掃
+- AI自動化排版
+- '[代買] INFINITE F'
+- 修復照片（人工，使用AI勿來）
+- 討論
+- 公告
+- 需要幫我算8591這一年的網路
+- '[履歷]'
+- '[代買] BOYNEXTDOO'
+- 清潔
+- 結束
+- '[自介]'
+- '[譯者]'
+- 心得
+- '[代買] LenaMiu Lo'
+- 已徵到
+- 跳舞
+- 排班
+- 舞者
+- 測試關鍵字
+- 已滿
+- 服務生
+- 版規
+- AI影像測試
+- 徵到
+- 推薦
+- '[工作室]'
+- 練舞
+keywords:
+  ai_planning:
+    exclude:
+    - 全職
+    - 長期小編
+    include:
+    - AI
+    - ChatGPT
+    - 簡報
+    - PPT
+    - 排版
+    - 美化
+    - 企劃
+    - Notion
+    - 短影音
+    - 提案
+    - 教學
+    - 教會
+    - AI課程
+    - 教人
+    - 使用教學
+    - AI工具
+    - 生成式AI
+    - Midjourney
+    - Stable Diffusion
+    - Claude
+    - Gemini
+    - 自動化流程
+    - n8n
+    - Zapier
+  data_automation:
+    exclude:
+    - 全職
+    - 打卡
+    - 派遣
+    - 正職
+    include:
+    - 爬蟲
+    - 抓資料
+    - 轉檔
+    - 整理資料
+    - VBA
+    - Excel
+    - 建檔
+    - 資料處理
+    - API
+    - 自動化
+  japanese_niche:
+    exclude:
+    - 英文
+    - 韓文
+    - 全職
+    - 補習班
+    - 家教
+    - 老師
+    - 一般翻譯
+    include:
+    - 日文急件
+    - 日本代打
+    - 代聯絡
+    - 日文 商務
+    - 日翻中 急
+    - 特急
+min_hourly_wage: 350
+targets:
+  dcard:
+    fetch_interval_hours: 2
+    forums:
+    - job
+    - part_time_job
+    - money
+  job104:
+    fetch_interval_hours: 2
+    keywords:
+    - 論件計酬
+    - 遠端 整理
+    - 外包 爬蟲
+    - 排版
+    - 專案 外包
+  ptt:
+    boards:
+    - SOHO
+    - translator
+    - CodeJob
+    - HelpBuy
+    - Soft_Job
+    fetch_interval_hours: 2
+  tasker:
+    enabled: true
+    fetch_interval_hours: 2
+  xiao_ji:
+    categories:
+    - 電腦
+    - 多媒體
+    - 文書處理
+    - 課業
+    fetch_interval_hours: 2
+telegram:
+  bot_token: <YOUR_TELEGRAM_BOT_TOKEN>
+  chat_id: <YOUR_TELEGRAM_CHAT_ID>

@@ -1,210 +1,210 @@
 {
-  "last_weekly_renewal": 1788120616.0422192,
+  "last_weekly_renewal": 1788145051.9748354,
   "keyword_scores": {
     "AI": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "ChatGPT": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "簡報": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "PPT": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "排版": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "美化": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "企劃": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "Notion": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "短影音": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "提案": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "教學": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "教會": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "AI課程": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "教人": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "使用教學": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "AI工具": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "生成式AI": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "Midjourney": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "Stable Diffusion": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "Claude": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "Gemini": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "自動化流程": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "n8n": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "Zapier": {
       "score": 20,
       "category": "ai_planning",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "爬蟲": {
       "score": 25,
       "category": "data_automation",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "抓資料": {
       "score": 25,
       "category": "data_automation",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "轉檔": {
       "score": 25,
       "category": "data_automation",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "整理資料": {
       "score": 25,
       "category": "data_automation",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "VBA": {
       "score": 25,
       "category": "data_automation",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "Excel": {
       "score": 25,
       "category": "data_automation",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "建檔": {
       "score": 25,
       "category": "data_automation",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "資料處理": {
       "score": 25,
       "category": "data_automation",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "API": {
       "score": 25,
       "category": "data_automation",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "自動化": {
       "score": 25,
       "category": "data_automation",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "日文急件": {
       "score": 18,
       "category": "japanese_niche",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "日本代打": {
       "score": 18,
       "category": "japanese_niche",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "代聯絡": {
       "score": 18,
       "category": "japanese_niche",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "日文 商務": {
       "score": 18,
       "category": "japanese_niche",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "日翻中 急": {
       "score": 18,
       "category": "japanese_niche",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "特急": {
       "score": 18,
       "category": "japanese_niche",
-      "created_at": 1788120616.04222
+      "created_at": 1788145051.974836
     },
     "ai_planning": {
-      "score": 19,
+      "score": 18,
       "category": "general",
-      "created_at": 1788120660.7606037
+      "created_at": 1788145099.9435544
     }
   }
 }

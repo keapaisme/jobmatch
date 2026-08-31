@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-30 20:11:01",
+  "updated_at": "2026-08-31 02:58:22",
   "stats": {
-    "total_seen": 124,
+    "total_seen": 123,
     "high_value_count": 50,
-    "deduplicated_count": 74,
+    "deduplicated_count": 73,
     "feedback_count": 0
   },
   "opportunities": [
     {
-      "post_id": "https://www.tasker.com.tw/cases/TK26082719CPBQ15",
-      "title": "保健商品頁企劃",
-      "url": "https://www.tasker.com.tw/cases/TK26082719CPBQ15",
+      "post_id": "https://www.tasker.com.tw/cases/TK26082800JQKG85",
+      "title": "短影音藏鏡人拍攝一天執行與交付",
+      "url": "https://www.tasker.com.tw/cases/TK26082800JQKG85",
       "source": "Tasker出任務",
       "score": 65,
       "x_budget": 80,
@@ -23,25 +23,7 @@
         "freshness": 0.95
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-08-30 20:11:00"
-    },
-    {
-      "post_id": "https://www.104.com.tw/job/8ckvy",
-      "title": "[遠端/外包] 數位行銷企劃 / 社群行銷專員 (北部地區)",
-      "url": "https://www.104.com.tw/job/8ckvy",
-      "source": "104 (席恩資訊股份有限公司)",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-08-30 20:11:00"
+      "created_at": "2026-08-31 02:58:19"
     },
     {
       "post_id": "https://www.104.com.tw/job/9558p",
@@ -59,13 +41,13 @@
         "freshness": 0.95
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-08-30 20:11:00"
+      "created_at": "2026-08-31 02:58:19"
     },
     {
-      "post_id": "https://www.ptt.cc/bbs/HelpBuy/M.1788104508.A.A28.html",
-      "title": "[英國] ★換季折扣 COACH/ALLSAINTS/LONGCHAMP/TORY BURCH/RIMOWA",
-      "url": "https://www.ptt.cc/bbs/HelpBuy/M.1788104508.A.A28.html",
-      "source": "PTT-HelpBuy",
+      "post_id": "https://www.104.com.tw/job/8ckvy",
+      "title": "[遠端/外包] 數位行銷企劃 / 社群行銷專員 (北部地區)",
+      "url": "https://www.104.com.tw/job/8ckvy",
+      "source": "104 (席恩資訊股份有限公司)",
       "score": 65,
       "x_budget": 80,
       "y_urgency": 0.0,
@@ -77,7 +59,7 @@
         "freshness": 0.95
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-08-30 20:11:00"
+      "created_at": "2026-08-31 02:58:19"
     },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26081909YBDG39",
@@ -906,6 +888,24 @@
       },
       "ai_reason": "四象限 Q1 | X:+7(自動化) Y:+6(報酬) | 商機座標 Dash-X:85 Dash-Y:+1.2",
       "created_at": "2026-08-10 10:00:48"
+    },
+    {
+      "post_id": "https://www.chickpt.com.tw/job-zrn0gn6X85gE",
+      "title": "徵求 Word 排版校對協助",
+      "url": "https://www.chickpt.com.tw/job-zrn0gn6X85gE",
+      "source": "小雞上工-電腦",
+      "score": 62,
+      "x_budget": 60,
+      "y_urgency": 0.6,
+      "vector": {
+        "urgency": 0.65,
+        "budget": 0.6,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q1 | X:+2(自動化) Y:+3(報酬) | 商機座標 Dash-X:60 Dash-Y:+0.6",
+      "created_at": "2026-08-10 09:00:49"
     }
   ],
   "feedback_logs": [],

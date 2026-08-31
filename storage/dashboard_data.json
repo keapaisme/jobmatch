@@ -1,12 +1,66 @@
 {
-  "updated_at": "2026-08-19 23:15:49",
+  "updated_at": "2026-08-31 02:58:22",
   "stats": {
-    "total_seen": 120,
+    "total_seen": 123,
     "high_value_count": 50,
-    "deduplicated_count": 70,
+    "deduplicated_count": 73,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26082800JQKG85",
+      "title": "短影音藏鏡人拍攝一天執行與交付",
+      "url": "https://www.tasker.com.tw/cases/TK26082800JQKG85",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-08-31 02:58:19"
+    },
+    {
+      "post_id": "https://www.104.com.tw/job/9558p",
+      "title": "品牌行銷企劃／廣告投放專員｜遠端兼職、外包皆可",
+      "url": "https://www.104.com.tw/job/9558p",
+      "source": "104 (玉我翡翠_玉我貿易企業社)",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-08-31 02:58:19"
+    },
+    {
+      "post_id": "https://www.104.com.tw/job/8ckvy",
+      "title": "[遠端/外包] 數位行銷企劃 / 社群行銷專員 (北部地區)",
+      "url": "https://www.104.com.tw/job/8ckvy",
+      "source": "104 (席恩資訊股份有限公司)",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-08-31 02:58:19"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26081909YBDG39",
       "title": "製作莊振凱「八字命」歌唱肢體語言教學影片",
@@ -852,83 +906,16 @@
       },
       "ai_reason": "四象限 Q1 | X:+2(自動化) Y:+3(報酬) | 商機座標 Dash-X:60 Dash-Y:+0.6",
       "created_at": "2026-08-10 09:00:49"
-    },
-    {
-      "post_id": "https://www.chickpt.com.tw/job-NLjmnY9yl03D",
-      "title": "餐飲菜單排版設計",
-      "url": "https://www.chickpt.com.tw/job-NLjmnY9yl03D",
-      "source": "小雞上工-電腦",
-      "score": 75,
-      "x_budget": 80,
-      "y_urgency": 0.8,
-      "vector": {
-        "urgency": 0.7,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q1 | X:+6(自動化) Y:+4(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.8",
-      "created_at": "2026-08-10 07:00:51"
-    },
-    {
-      "post_id": "https://www.chickpt.com.tw/job-VK8m2AxEB0wo",
-      "title": "需要剪房子介紹影片，AI後置傢俱",
-      "url": "https://www.chickpt.com.tw/job-VK8m2AxEB0wo",
-      "source": "小雞上工-電腦",
-      "score": 88,
-      "x_budget": 85,
-      "y_urgency": 1.6,
-      "vector": {
-        "urgency": 0.9,
-        "budget": 0.85,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q1 | X:+7(自動化) Y:+8(報酬) | 商機座標 Dash-X:85 Dash-Y:+1.6",
-      "created_at": "2026-08-10 06:00:47"
-    },
-    {
-      "post_id": "https://www.chickpt.com.tw/job-6y71vRMXj1nw",
-      "title": "台中市_兒童游泳教學",
-      "url": "https://www.chickpt.com.tw/job-6y71vRMXj1nw",
-      "source": "小雞上工-電腦",
-      "score": 68,
-      "x_budget": 60,
-      "y_urgency": 1.0,
-      "vector": {
-        "urgency": 0.75,
-        "budget": 0.6,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q1 | X:+2(自動化) Y:+5(報酬) | 商機座標 Dash-X:60 Dash-Y:+1.0",
-      "created_at": "2026-08-10 03:00:49"
     }
   ],
   "feedback_logs": [],
   "keywords": {
-    "data_automation": [
-      "API",
-      "Excel",
-      "VBA",
-      "建檔",
-      "抓資料",
-      "整理資料",
-      "爬蟲",
-      "自動化",
-      "資料處理",
-      "轉檔"
-    ],
     "ai_planning": [
       "AI",
       "AI工具",
       "AI課程",
       "ChatGPT",
       "Claude",
-      "Claude3.5",
       "Gemini",
       "Midjourney",
       "Notion",
@@ -942,30 +929,35 @@
       "提案",
       "教人",
       "教學",
+      "教會",
       "生成式AI",
       "短影音",
       "簡報",
       "美化",
-      "自動化流程",
-      "要學"
+      "自動化流程"
+    ],
+    "data_automation": [
+      "API",
+      "Excel",
+      "VBA",
+      "建檔",
+      "抓資料",
+      "整理資料",
+      "爬蟲",
+      "自動化",
+      "資料處理",
+      "轉檔"
     ],
     "japanese_niche": [
       "代聯絡",
       "日文 商務",
       "日文急件",
-      "日本代",
       "日本代打",
-      "日本代溝通",
       "日翻中 急",
       "特急"
     ],
     "general": [
-      "ai_planning",
-      "data_automation",
-      "one_time_ritual"
-    ],
-    "one_time_ritual": [
-      "求婚佈置"
+      "ai_planning"
     ]
   }
 }

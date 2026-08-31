@@ -4,6 +4,9 @@ import yaml
 import os
 import json
 
+# 待審案件暫存佇列路徑
+REVIEW_QUEUE_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "storage", "review_queue.json")
+
 class TelegramNotifier:
     def __init__(self, bot_token=None, chat_id=None, config_path=None):
         if bot_token and chat_id:
@@ -100,6 +103,75 @@ class TelegramNotifier:
         """發送零機會時的心跳回報訊號 (帶有極簡狀態文字，確保觸發手機推播) v1.4"""
         return self.send_message(message)
 
+    def send_q34_review(self, posts: list, max_posts: int = 5, queue_path: str = None):
+        """
+        發送 Q3/Q4 低分待審案件，含晉升/黑名單按鈕 v1.0
+        將待審案件寫入 review_queue.json 供下一輪 process_user_feedbacks() 解析
+        """
+        if not posts or not self.bot_token or self.bot_token == "YOUR_TELEGRAM_BOT_TOKEN":
+            if posts:
+                print(f"[待審] 共 {len(posts)} 件 Q3/Q4 待審案件（Telegram 未設定，略過推送）")
+            return
+
+        queue_path = queue_path or REVIEW_QUEUE_PATH
+
+        # 取分數總和最高的邊際案件（最有救的先審）
+        review_posts = sorted(
+            posts,
+            key=lambda p: p.get("x_score", 0) + p.get("y_score", 0),
+            reverse=True
+        )[:max_posts]
+
+        # 寫入待審佇列 JSON
+        review_queue = {}
+        for idx, post in enumerate(review_posts):
+            key = f"rv_{idx+1:03d}"
+            review_queue[key] = {
+                "title": post.get("title", ""),
+                "url": post.get("url", "#"),
+                "x_score": post.get("x_score", 0),
+                "y_score": post.get("y_score", 0),
+                "quadrant": post.get("quadrant", "Q3"),
+                "category": post.get("category", ""),
+            }
+        os.makedirs(os.path.dirname(queue_path), exist_ok=True)
+        with open(queue_path, "w", encoding="utf-8") as f:
+            json.dump(review_queue, f, ensure_ascii=False, indent=2)
+
+        # 發送表頭訊息
+        total = len(posts)
+        shown = len(review_posts)
+        self.send_message(
+            f"⚠️ <b>低分待審案件 {total} 件</b>（顯示前 {shown} 件，請按鈕回饋）"
+        )
+
+        # 逐件發送帶按鈕的訊息
+        for key, item in review_queue.items():
+            title = item["title"]
+            url = item["url"]
+            x = item["x_score"]
+            y = item["y_score"]
+            q = item["quadrant"]
+            kw = title[:28]  # 黑名單關鍵詞（限 28 字元讓 callback_data < 64 bytes）
+
+            x_str = f"+{x}" if x >= 0 else str(x)
+            y_str = f"+{y}" if y >= 0 else str(y)
+
+            msg = (
+                f"⚠️ <b>[{q}]</b> {title}\n"
+                f"X:{x_str}(自動化) Y:{y_str}(報酬)\n"
+                f"<a href='{url}'>🔗 查看原文</a>"
+            )
+            reply_markup = {
+                "inline_keyboard": [[
+                    {"text": "⬆️ 晉升通知", "callback_data": f"promote|{key}"},
+                    {"text": "🚫 加黑名單", "callback_data": f"dislike|{kw}"}
+                ]]
+            }
+            self.send_message(msg, reply_markup=reply_markup)
+
+        print(f"[待審] 已推送 {shown} 件 Q3/Q4 待審案件至 Telegram")
+
     def process_user_feedbacks(self, config_path="config.yaml", gcs_bucket=None):
         """
         批次處理使用者反饋 v1.8 (GCS 佇列模式)
@@ -157,6 +229,17 @@ class TelegramNotifier:
                 updates = r.json().get("result", [])
                 if not updates:
                     return
+
+                # 讀取待審佇列以供 promote 回調解析
+                review_queue = {}
+                if os.path.exists(REVIEW_QUEUE_PATH):
+                    try:
+                        with open(REVIEW_QUEUE_PATH, "r", encoding="utf-8") as f:
+                            review_queue = json.load(f)
+                    except Exception:
+                        pass
+
+                promoted_items = []
                 max_update_id = 0
                 for u in updates:
                     max_update_id = max(max_update_id, u.get("update_id", 0))
@@ -177,12 +260,38 @@ class TelegramNotifier:
                         cat = data.split("|", 1)[1].strip()
                         if cat and cat not in liked_categories:
                             liked_categories.append(cat)
+                    elif data.startswith("promote|"):
+                        key = data.split("|", 1)[1].strip()
+                        if key in review_queue:
+                            item = review_queue[key]
+                            if item not in promoted_items:
+                                promoted_items.append(item)
+
+                # 推送晉升案件通知
+                for item in promoted_items:
+                    promote_msg = (
+                        f"⬆️ <b>[手動晉升]</b> {item['title']}\n"
+                        f"X:{item['x_score']:+d}(自動化) Y:{item['y_score']:+d}(報酬)\n"
+                        f"<a href='{item['url']}'>🔗 查看原文</a>"
+                    )
+                    self.send_message(promote_msg)
+                    print(f"[晉升] 已推送晉升案件：{item['title']}")
+
+                # 從佇列中移除已處理的晉升案件
+                if promoted_items and review_queue:
+                    promoted_urls = {item["url"] for item in promoted_items}
+                    new_queue = {k: v for k, v in review_queue.items()
+                                 if v.get("url") not in promoted_urls}
+                    with open(REVIEW_QUEUE_PATH, "w", encoding="utf-8") as f:
+                        json.dump(new_queue, f, ensure_ascii=False, indent=2)
+
                 if max_update_id > 0:
                     try:
                         requests.get(f"{self.base_url}/getUpdates?offset={max_update_id + 1}", timeout=5)
                     except Exception:
                         pass
-            except Exception:
+            except Exception as e:
+                print(f"[反饋] getUpdates 處理異常: {e}")
                 return
 
         # --- 共用：寫入黑名單 + 發送學習報告 ---

@@ -110,6 +110,12 @@ def run_once():
     config = load_config()
 
     telegram = TelegramNotifier()
+
+    # 0. 處理上一輪的 Telegram 按鈕回饋（梙升訊息 / 黑名單更新）
+    try:
+        telegram.process_user_feedbacks()
+    except Exception as e:
+        print(f"[反饋] 處理異常，略過: {e}")
     # Initialize optional notifiers
     line_cfg = config.get("line", {})
     line_notifier = LineNotifier(token=line_cfg.get("token")) if line_cfg.get("token") else None
@@ -175,6 +181,7 @@ def run_once():
 
     # 4. 依象限篩選、存入資料庫、推播
     found_count = 0
+    q34_posts = []  # 收集 Q3/Q4 待審案件
     allowed_quadrants = eval_config.get("allowed_quadrants", ["Q1", "Q2"])
 
     for post in evaluated_posts:
@@ -247,16 +254,24 @@ def run_once():
                 except Exception as e:
                     print(f"[iMessage] 發送失敗: {e}")
             time.sleep(1)
+        elif quadrant in ["Q3", "Q4"]:
+            # 新增：收集 Q3/Q4 待審案件，不再静默丟棄
+            q34_posts.append(post)
+            print(f"⌛ [{quadrant}] X:{x_score:+d} Y:{y_score:+d} | 列入待審: {post['title'][:40]}")
 
     # 5. 關鍵字動態演化
     keyword_manager.run_evolution_cycle()
     print(f"\n✅ 掃描完成。共發現 {found_count} 個高價值商機。")
 
-    # 6. 心跳包
+    # 7. 匹配案件為 0 時的心跳包
     if found_count == 0:
         telegram.send_heartbeat("🟢 巡邏正常 (無新案件)")
 
-    # 7. 匯出 SQLite → dashboard_data.json
+    # 8. 待審案件推送（Q3/Q4 還有救的那些）
+    if q34_posts:
+        telegram.send_q34_review(q34_posts)
+
+    # 9. 匯出 SQLite → dashboard_data.json
     export_dashboard_data()
     print("🚀 Dashboard 數據已匯出完畢。")
 

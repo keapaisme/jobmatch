@@ -1,12 +1,48 @@
 {
-  "updated_at": "2026-08-31 22:20:16",
+  "updated_at": "2026-09-01 03:13:32",
   "stats": {
-    "total_seen": 126,
+    "total_seen": 128,
     "high_value_count": 50,
-    "deduplicated_count": 76,
+    "deduplicated_count": 78,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26082909BBAY55",
+      "title": "200頁旅遊圖文書｜美編＋書籍排版外包",
+      "url": "https://www.tasker.com.tw/cases/TK26082909BBAY55",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-01 03:13:30"
+    },
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26082905EDGW50",
+      "title": "產品企劃案0829",
+      "url": "https://www.tasker.com.tw/cases/TK26082905EDGW50",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-01 03:13:30"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26082816XLLY62",
       "title": "AI 影片製作",
@@ -870,42 +906,6 @@
       },
       "ai_reason": "四象限 Q1 | X:+7(自動化) Y:+6(報酬) | 商機座標 Dash-X:85 Dash-Y:+1.2",
       "created_at": "2026-08-11 05:00:49"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26081101TTCS63",
-      "title": "word需要轉換成excel",
-      "url": "https://www.tasker.com.tw/cases/TK26081101TTCS63",
-      "source": "Tasker出任務",
-      "score": 80,
-      "x_budget": 90,
-      "y_urgency": 0.8,
-      "vector": {
-        "urgency": 0.7,
-        "budget": 0.9,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q1 | X:+8(自動化) Y:+4(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.8",
-      "created_at": "2026-08-11 04:00:51"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26081013XRCT72",
-      "title": "懂自動化控制(電機整合)， 電控人員，有設備安裝經驗",
-      "url": "https://www.tasker.com.tw/cases/TK26081013XRCT72",
-      "source": "Tasker出任務",
-      "score": 48,
-      "x_budget": 25,
-      "y_urgency": 0.8,
-      "vector": {
-        "urgency": 0.7,
-        "budget": 0.25,
-        "skill_fit": 0.5,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q2 | X:-5(自動化) Y:+4(報酬) | 商機座標 Dash-X:25 Dash-Y:+0.8",
-      "created_at": "2026-08-10 14:00:52"
     }
   ],
   "feedback_logs": [],

@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-09-01 15:58:30",
+  "updated_at": "2026-09-01 20:26:38",
   "stats": {
-    "total_seen": 134,
+    "total_seen": 135,
     "high_value_count": 50,
-    "deduplicated_count": 84,
+    "deduplicated_count": 85,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.104.com.tw/job/7yg0q",
+      "title": "♡心夢想教育♡ 國小英文教學老師",
+      "url": "https://www.104.com.tw/job/7yg0q",
+      "source": "104 (私立思塾數學語文文理短期補習班)",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-01 20:26:37"
+    },
     {
       "post_id": "https://www.ptt.cc/bbs/soho/M.1788264755.A.CB1.html",
       "title": "網頁內頁視覺排版美化",
@@ -888,24 +906,6 @@
       },
       "ai_reason": "四象限 Q1 | X:+9(自動化) Y:+8(報酬) | 商機座標 Dash-X:95 Dash-Y:+1.6",
       "created_at": "2026-08-12 06:00:48"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26080912POIE08",
-      "title": "ai 影片內容",
-      "url": "https://www.tasker.com.tw/cases/TK26080912POIE08",
-      "source": "Tasker出任務",
-      "score": 88,
-      "x_budget": 90,
-      "y_urgency": 1.4,
-      "vector": {
-        "urgency": 0.85,
-        "budget": 0.9,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q1 | X:+8(自動化) Y:+7(報酬) | 商機座標 Dash-X:90 Dash-Y:+1.4",
-      "created_at": "2026-08-12 05:00:51"
     }
   ],
   "feedback_logs": [],

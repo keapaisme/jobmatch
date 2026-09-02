@@ -202,9 +202,14 @@
       "created_at": 1788145051.974836
     },
     "ai_planning": {
-      "score": 34,
+      "score": 35,
       "category": "general",
       "created_at": 1788145099.9435544
+    },
+    "data_automation": {
+      "score": 16,
+      "category": "general",
+      "created_at": 1788344931.8370285
     }
   }
 }

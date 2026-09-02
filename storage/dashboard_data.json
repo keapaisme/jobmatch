@@ -1,12 +1,48 @@
 {
-  "updated_at": "2026-09-02 02:31:46",
+  "updated_at": "2026-09-02 10:28:54",
   "stats": {
-    "total_seen": 137,
+    "total_seen": 139,
     "high_value_count": 50,
-    "deduplicated_count": 87,
+    "deduplicated_count": 89,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.104.com.tw/job/950nb",
+      "title": "Power Platform / AI 流程自動化顧問（兼職｜部分遠端）",
+      "url": "https://www.104.com.tw/job/950nb",
+      "source": "104 (舜禹有限公司)",
+      "score": 70,
+      "x_budget": 90,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.9,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
+      "created_at": "2026-09-02 10:28:51"
+    },
+    {
+      "post_id": "https://www.ptt.cc/bbs/translator/M.1788343258.A.554.html",
+      "title": "[徵才] TaipeiPlas 台北塑橡膠展｜短期展場地推",
+      "url": "https://www.ptt.cc/bbs/translator/M.1788343258.A.554.html",
+      "source": "PTT-translator",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-02 10:28:51"
+    },
     {
       "post_id": "https://www.104.com.tw/job/95eyx",
       "title": "「兼職」AI專案助理（協助執行／小工具整合／專案推進）",
@@ -870,42 +906,6 @@
       },
       "ai_reason": "四象限 Q2 | X:-2(自動化) Y:+5(報酬) | 商機座標 Dash-X:40 Dash-Y:+1.0",
       "created_at": "2026-08-12 12:00:51"
-    },
-    {
-      "post_id": "https://www.chickpt.com.tw/job-VK8m2A9oj0wo",
-      "title": "word 排版 10分鐘內可以搞定",
-      "url": "https://www.chickpt.com.tw/job-VK8m2A9oj0wo",
-      "source": "小雞上工-電腦",
-      "score": 82,
-      "x_budget": 90,
-      "y_urgency": 1.0,
-      "vector": {
-        "urgency": 0.75,
-        "budget": 0.9,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q1 | X:+8(自動化) Y:+5(報酬) | 商機座標 Dash-X:90 Dash-Y:+1.0",
-      "created_at": "2026-08-12 11:00:51"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26081215RJQX23",
-      "title": "pdf轉excel",
-      "url": "https://www.tasker.com.tw/cases/TK26081215RJQX23",
-      "source": "Tasker出任務",
-      "score": 80,
-      "x_budget": 85,
-      "y_urgency": 1.0,
-      "vector": {
-        "urgency": 0.75,
-        "budget": 0.85,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q1 | X:+7(自動化) Y:+5(報酬) | 商機座標 Dash-X:85 Dash-Y:+1.0",
-      "created_at": "2026-08-12 10:00:50"
     }
   ],
   "feedback_logs": [],
@@ -957,7 +957,8 @@
       "特急"
     ],
     "general": [
-      "ai_planning"
+      "ai_planning",
+      "data_automation"
     ]
   }
 }

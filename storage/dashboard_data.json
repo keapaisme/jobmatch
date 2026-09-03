@@ -1,12 +1,48 @@
 {
-  "updated_at": "2026-09-03 02:39:30",
+  "updated_at": "2026-09-03 10:35:32",
   "stats": {
-    "total_seen": 144,
+    "total_seen": 146,
     "high_value_count": 50,
-    "deduplicated_count": 94,
+    "deduplicated_count": 96,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.104.com.tw/job/95j1k",
+      "title": "KOL行銷企劃（遠端 / 兼職）",
+      "url": "https://www.104.com.tw/job/95j1k",
+      "source": "104 (學籽文創有限公司)",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-03 10:35:30"
+    },
+    {
+      "post_id": "https://www.ptt.cc/bbs/HelpBuy/M.1788430369.A.95D.html",
+      "title": "[代買] T-ARA Fancon 2026 in Taiwan",
+      "url": "https://www.ptt.cc/bbs/HelpBuy/M.1788430369.A.95D.html",
+      "source": "PTT-HelpBuy",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-03 10:35:30"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26082918OJUQ92",
       "title": "30,000字出版品美編與排版設計（兩個月交付）",
@@ -870,42 +906,6 @@
       },
       "ai_reason": "四象限 Q1 | X:+6(自動化) Y:+5(報酬) | 商機座標 Dash-X:80 Dash-Y:+1.0",
       "created_at": "2026-08-13 06:00:52"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26081011IGBH77",
-      "title": "內部表單網站自動化，Ai Agent",
-      "url": "https://www.tasker.com.tw/cases/TK26081011IGBH77",
-      "source": "Tasker出任務",
-      "score": 85,
-      "x_budget": 90,
-      "y_urgency": 1.2,
-      "vector": {
-        "urgency": 0.8,
-        "budget": 0.9,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q1 | X:+8(自動化) Y:+6(報酬) | 商機座標 Dash-X:90 Dash-Y:+1.2",
-      "created_at": "2026-08-13 04:00:51"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26080811NTVJ99",
-      "title": "AI 語音生成&後製合作人員(無經驗可)",
-      "url": "https://www.tasker.com.tw/cases/TK26080811NTVJ99",
-      "source": "Tasker出任務",
-      "score": 82,
-      "x_budget": 85,
-      "y_urgency": 1.2,
-      "vector": {
-        "urgency": 0.8,
-        "budget": 0.85,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q1 | X:+7(自動化) Y:+6(報酬) | 商機座標 Dash-X:85 Dash-Y:+1.2",
-      "created_at": "2026-08-13 03:00:52"
     }
   ],
   "feedback_logs": [],

@@ -1,12 +1,48 @@
 {
-  "updated_at": "2026-09-03 20:25:48",
+  "updated_at": "2026-09-04 02:35:58",
   "stats": {
-    "total_seen": 146,
-    "high_value_count": 50,
-    "deduplicated_count": 96,
+    "total_seen": 148,
+    "high_value_count": 51,
+    "deduplicated_count": 98,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26083119BXZT49",
+      "title": "Android 自動化運維與數據採集技術合作夥伴（專案承攬／長期維運）",
+      "url": "https://www.tasker.com.tw/cases/TK26083119BXZT49",
+      "source": "Tasker出任務",
+      "score": 82,
+      "x_budget": 90,
+      "y_urgency": 1.0,
+      "vector": {
+        "urgency": 0.75,
+        "budget": 0.9,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q1 | X:+8(自動化) Y:+5(報酬) | 商機座標 Dash-X:90 Dash-Y:+1.0",
+      "created_at": "2026-09-04 02:35:55"
+    },
+    {
+      "post_id": "https://www.ptt.cc/bbs/HelpBuy/M.1788488458.A.A35.html",
+      "title": "[代買] Henry Moodie in Taipei",
+      "url": "https://www.ptt.cc/bbs/HelpBuy/M.1788488458.A.A35.html",
+      "source": "PTT-HelpBuy",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-04 02:35:55"
+    },
     {
       "post_id": "https://www.104.com.tw/job/95j1k",
       "title": "KOL行銷企劃（遠端 / 兼職）",
@@ -870,42 +906,6 @@
       },
       "ai_reason": "四象限 Q1 | X:+8(自動化) Y:+7(報酬) | 商機座標 Dash-X:90 Dash-Y:+1.4",
       "created_at": "2026-08-13 16:00:48"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26052713VBMJ97",
-      "title": "AI影片生成發案",
-      "url": "https://www.tasker.com.tw/cases/TK26052713VBMJ97",
-      "source": "Tasker出任務",
-      "score": 92,
-      "x_budget": 95,
-      "y_urgency": 1.6,
-      "vector": {
-        "urgency": 0.9,
-        "budget": 0.95,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q1 | X:+9(自動化) Y:+8(報酬) | 商機座標 Dash-X:95 Dash-Y:+1.6",
-      "created_at": "2026-08-13 14:00:49"
-    },
-    {
-      "post_id": "https://www.chickpt.com.tw/job-yMa5BDkMemJN",
-      "title": "協助製作活動用簡報",
-      "url": "https://www.chickpt.com.tw/job-yMa5BDkMemJN",
-      "source": "小雞上工-電腦",
-      "score": 78,
-      "x_budget": 80,
-      "y_urgency": 1.0,
-      "vector": {
-        "urgency": 0.75,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q1 | X:+6(自動化) Y:+5(報酬) | 商機座標 Dash-X:80 Dash-Y:+1.0",
-      "created_at": "2026-08-13 06:00:52"
     }
   ],
   "feedback_logs": [],

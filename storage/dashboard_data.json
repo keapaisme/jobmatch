@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-09-06 19:54:51",
+  "updated_at": "2026-09-07 02:31:32",
   "stats": {
-    "total_seen": 158,
+    "total_seen": 159,
     "high_value_count": 51,
-    "deduplicated_count": 108,
+    "deduplicated_count": 109,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26090401QUPX49",
+      "title": "講廠商賴貼文自動化po到fb",
+      "url": "https://www.tasker.com.tw/cases/TK26090401QUPX49",
+      "source": "Tasker出任務",
+      "score": 70,
+      "x_budget": 90,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.9,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
+      "created_at": "2026-09-07 02:31:29"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26090501VWFS27",
       "title": "重大公共工程影像紀錄企劃｜徵隧道工程技術顧問（投標階段合作）",
@@ -888,24 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-08-17 04:00:47"
-    },
-    {
-      "post_id": "https://www.ptt.cc/bbs/HelpBuy/M.1786880778.A.42E.html",
-      "title": "[代買] LenaMiu Love Meets Meeting in Taipei",
-      "url": "https://www.ptt.cc/bbs/HelpBuy/M.1786880778.A.42E.html",
-      "source": "PTT-HelpBuy",
-      "score": 82,
-      "x_budget": 85,
-      "y_urgency": 1.2,
-      "vector": {
-        "urgency": 0.8,
-        "budget": 0.85,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q1 | X:+7(自動化) Y:+6(報酬) | 商機座標 Dash-X:85 Dash-Y:+1.2",
-      "created_at": "2026-08-16 12:00:48"
     }
   ],
   "feedback_logs": [],

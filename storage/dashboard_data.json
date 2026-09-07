@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-09-07 02:31:32",
+  "updated_at": "2026-09-07 11:25:00",
   "stats": {
-    "total_seen": 159,
+    "total_seen": 160,
     "high_value_count": 51,
-    "deduplicated_count": 109,
+    "deduplicated_count": 110,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26090415EKPL63",
+      "title": "徵求短影音動畫製作人員",
+      "url": "https://www.tasker.com.tw/cases/TK26090415EKPL63",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-07 11:24:59"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26090401QUPX49",
       "title": "講廠商賴貼文自動化po到fb",
@@ -888,24 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-08-17 06:00:45"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26081411HCXH06",
-      "title": "app ai聊天機器人(安卓 IOS）",
-      "url": "https://www.tasker.com.tw/cases/TK26081411HCXH06",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-08-17 04:00:47"
     }
   ],
   "feedback_logs": [],
@@ -916,6 +916,7 @@
       "AI課程",
       "ChatGPT",
       "Claude",
+      "Claude3.5",
       "Gemini",
       "Midjourney",
       "Notion",
@@ -953,12 +954,16 @@
       "日文 商務",
       "日文急件",
       "日本代打",
+      "日本代溝通",
       "日翻中 急",
       "特急"
     ],
     "general": [
       "ai_planning",
       "data_automation"
+    ],
+    "one_time_ritual": [
+      "求婚佈置"
     ]
   }
 }

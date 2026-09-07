@@ -1,5 +1,5 @@
 {
-  "last_weekly_renewal": 1788145051.9748354,
+  "last_weekly_renewal": 1788780299.0816693,
   "keyword_scores": {
     "AI": {
       "score": 20,
@@ -202,7 +202,7 @@
       "created_at": 1788145051.974836
     },
     "ai_planning": {
-      "score": 54,
+      "score": 55,
       "category": "general",
       "created_at": 1788145099.9435544
     },
@@ -210,6 +210,21 @@
       "score": 21,
       "category": "general",
       "created_at": 1788344931.8370285
+    },
+    "Claude3.5": {
+      "score": 18,
+      "category": "ai_planning",
+      "created_at": 1788780299.0816731
+    },
+    "求婚佈置": {
+      "score": 18,
+      "category": "one_time_ritual",
+      "created_at": 1788780299.0816731
+    },
+    "日本代溝通": {
+      "score": 18,
+      "category": "japanese_niche",
+      "created_at": 1788780299.0816731
     }
   }
 }

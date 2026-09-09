@@ -1,12 +1,66 @@
 {
-  "updated_at": "2026-09-09 10:39:44",
+  "updated_at": "2026-09-09 15:48:58",
   "stats": {
-    "total_seen": 169,
+    "total_seen": 172,
     "high_value_count": 51,
-    "deduplicated_count": 119,
+    "deduplicated_count": 122,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26090618HEJF55",
+      "title": "台北24小時自助桌遊館短影音宣傳拍攝與剪輯",
+      "url": "https://www.tasker.com.tw/cases/TK26090618HEJF55",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-09 15:48:55"
+    },
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26090916MGPJ38",
+      "title": "短影音製作",
+      "url": "https://www.tasker.com.tw/cases/TK26090916MGPJ38",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-09 15:48:55"
+    },
+    {
+      "post_id": "https://www.chickpt.com.tw/job-Wy3mKKed2m9a",
+      "title": "護理系簡報",
+      "url": "https://www.chickpt.com.tw/job-Wy3mKKed2m9a",
+      "source": "小雞上工-電腦",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-09 15:48:55"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26090616VOQQ53",
       "title": "中壢區新完工電梯別墅行銷企劃與素材製作",
@@ -852,60 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-08-31 02:58:19"
-    },
-    {
-      "post_id": "https://www.104.com.tw/job/9558p",
-      "title": "品牌行銷企劃／廣告投放專員｜遠端兼職、外包皆可",
-      "url": "https://www.104.com.tw/job/9558p",
-      "source": "104 (玉我翡翠_玉我貿易企業社)",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-08-31 02:58:19"
-    },
-    {
-      "post_id": "https://www.104.com.tw/job/8ckvy",
-      "title": "[遠端/外包] 數位行銷企劃 / 社群行銷專員 (北部地區)",
-      "url": "https://www.104.com.tw/job/8ckvy",
-      "source": "104 (席恩資訊股份有限公司)",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-08-31 02:58:19"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26081909YBDG39",
-      "title": "製作莊振凱「八字命」歌唱肢體語言教學影片",
-      "url": "https://www.tasker.com.tw/cases/TK26081909YBDG39",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-08-19 06:00:48"
     }
   ],
   "feedback_logs": [],

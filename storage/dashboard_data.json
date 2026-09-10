@@ -1,12 +1,48 @@
 {
-  "updated_at": "2026-09-10 10:27:52",
+  "updated_at": "2026-09-10 15:43:51",
   "stats": {
-    "total_seen": 177,
+    "total_seen": 179,
     "high_value_count": 51,
-    "deduplicated_count": 127,
+    "deduplicated_count": 129,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26091015OWKX41",
+      "title": "剪輯25支直式短影音",
+      "url": "https://www.tasker.com.tw/cases/TK26091015OWKX41",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-10 15:43:48"
+    },
+    {
+      "post_id": "https://www.ptt.cc/bbs/HelpBuy/M.1789052984.A.D7C.html",
+      "title": "[英國] ★Selfridges折10% CHLOE/BALENCIAGA/BALMAIN/WEDGWOOD/SMEG",
+      "url": "https://www.ptt.cc/bbs/HelpBuy/M.1789052984.A.D7C.html",
+      "source": "PTT-HelpBuy",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-10 15:43:48"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26090716QWQB45",
       "title": "AI 動態影像與視覺設計師 (Freelancer / 團隊)",
@@ -870,42 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-09-01 10:59:31"
-    },
-    {
-      "post_id": "https://www.ptt.cc/bbs/HelpBuy/M.1788252452.A.8D5.html",
-      "title": "[代買] KAIBEAUTY 新光三越 台灣百貨",
-      "url": "https://www.ptt.cc/bbs/HelpBuy/M.1788252452.A.8D5.html",
-      "source": "PTT-HelpBuy",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-01 10:59:31"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26082909BBAY55",
-      "title": "200頁旅遊圖文書｜美編＋書籍排版外包",
-      "url": "https://www.tasker.com.tw/cases/TK26082909BBAY55",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-01 03:13:30"
     }
   ],
   "feedback_logs": [],

@@ -1,12 +1,66 @@
 {
-  "updated_at": "2026-09-09 20:19:45",
+  "updated_at": "2026-09-10 02:46:33",
   "stats": {
-    "total_seen": 172,
+    "total_seen": 175,
     "high_value_count": 51,
-    "deduplicated_count": 122,
+    "deduplicated_count": 125,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26090611JGXT57",
+      "title": "Meta Business Facebook Business Profile and WhatsApp API 設定",
+      "url": "https://www.tasker.com.tw/cases/TK26090611JGXT57",
+      "source": "Tasker出任務",
+      "score": 70,
+      "x_budget": 90,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.9,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
+      "created_at": "2026-09-10 02:46:30"
+    },
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26090707AXMR23",
+      "title": "泰語教學",
+      "url": "https://www.tasker.com.tw/cases/TK26090707AXMR23",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-10 02:46:30"
+    },
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26090709PKMP39",
+      "title": "短影音需求",
+      "url": "https://www.tasker.com.tw/cases/TK26090709PKMP39",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-10 02:46:30"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26090618HEJF55",
       "title": "台北24小時自助桌遊館短影音宣傳拍攝與剪輯",
@@ -852,60 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-08-31 12:30:27"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26082817DUBB69",
-      "title": "使用AI動畫拍攝一到兩分鐘的短 影片",
-      "url": "https://www.tasker.com.tw/cases/TK26082817DUBB69",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-08-31 12:30:27"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26082817WUDW18",
-      "title": "醫美影片拍攝(含企劃腳本剪輯)",
-      "url": "https://www.tasker.com.tw/cases/TK26082817WUDW18",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-08-31 12:30:27"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26082800JQKG85",
-      "title": "短影音藏鏡人拍攝一天執行與交付",
-      "url": "https://www.tasker.com.tw/cases/TK26082800JQKG85",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-08-31 02:58:19"
     }
   ],
   "feedback_logs": [],

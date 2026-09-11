@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-09-11 02:39:33",
+  "updated_at": "2026-09-11 10:30:11",
   "stats": {
-    "total_seen": 181,
+    "total_seen": 182,
     "high_value_count": 51,
-    "deduplicated_count": 131,
+    "deduplicated_count": 132,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26090817UTFD32",
+      "title": "AI課程推廣",
+      "url": "https://www.tasker.com.tw/cases/TK26090817UTFD32",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-11 10:30:09"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26090803KBYI41",
       "title": "創業心靈療癒品牌行銷策劃與簡報製作",
@@ -876,24 +894,6 @@
       "title": "徵求 AI 影片修復高手｜24GB 低畫質古典音樂演出錄影",
       "url": "https://www.tasker.com.tw/cases/TK26090100GNGW10",
       "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-01 10:59:31"
-    },
-    {
-      "post_id": "https://www.chickpt.com.tw/job-YqRmJXYpj5Zd",
-      "title": "歌詞MV製作 (可「部分」使用AI）",
-      "url": "https://www.chickpt.com.tw/job-YqRmJXYpj5Zd",
-      "source": "小雞上工-電腦",
       "score": 65,
       "x_budget": 80,
       "y_urgency": 0.0,

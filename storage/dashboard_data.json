@@ -1,12 +1,48 @@
 {
-  "updated_at": "2026-09-10 20:21:50",
+  "updated_at": "2026-09-11 02:39:33",
   "stats": {
-    "total_seen": 179,
+    "total_seen": 181,
     "high_value_count": 51,
-    "deduplicated_count": 129,
+    "deduplicated_count": 131,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26090803KBYI41",
+      "title": "創業心靈療癒品牌行銷策劃與簡報製作",
+      "url": "https://www.tasker.com.tw/cases/TK26090803KBYI41",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-11 02:39:31"
+    },
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26090810BKGV11",
+      "title": "PPT製作",
+      "url": "https://www.tasker.com.tw/cases/TK26090810BKGV11",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-11 02:39:31"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26091015OWKX41",
       "title": "剪輯25支直式短影音",
@@ -858,42 +894,6 @@
       "title": "歌詞MV製作 (可「部分」使用AI）",
       "url": "https://www.chickpt.com.tw/job-YqRmJXYpj5Zd",
       "source": "小雞上工-電腦",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-01 10:59:31"
-    },
-    {
-      "post_id": "https://www.104.com.tw/job/95fyr",
-      "title": "【彈性工時】AI 資安檢測工程師 兼職（完全遠端・不需手刻程式）",
-      "url": "https://www.104.com.tw/job/95fyr",
-      "source": "104 (恆遠數位科技有限公司)",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-01 10:59:31"
-    },
-    {
-      "post_id": "https://www.104.com.tw/job/95feu",
-      "title": "【彈性工時】社群內容行銷企劃 兼職（Threads／電子報・完全遠端）",
-      "url": "https://www.104.com.tw/job/95feu",
-      "source": "104 (恆遠數位科技有限公司)",
       "score": 65,
       "x_budget": 80,
       "y_urgency": 0.0,

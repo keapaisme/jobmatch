@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-09-13 10:59:50",
+  "updated_at": "2026-09-13 15:30:33",
   "stats": {
-    "total_seen": 184,
+    "total_seen": 185,
     "high_value_count": 51,
-    "deduplicated_count": 134,
+    "deduplicated_count": 135,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.chickpt.com.tw/job-VK8m2AzMn0wo",
+      "title": "臨時找明天中午11:30-12:30 幫忙線上電腦教學",
+      "url": "https://www.chickpt.com.tw/job-VK8m2AzMn0wo",
+      "source": "小雞上工-電腦",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-13 15:30:31"
+    },
     {
       "post_id": "https://www.chickpt.com.tw/job-NLjmnYj8b03D",
       "title": "電子學實驗教學(tinkercad)",
@@ -888,24 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-09-02 02:31:43"
-    },
-    {
-      "post_id": "https://www.104.com.tw/job/7yg0q",
-      "title": "♡心夢想教育♡ 國小英文教學老師",
-      "url": "https://www.104.com.tw/job/7yg0q",
-      "source": "104 (私立思塾數學語文文理短期補習班)",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-01 20:26:37"
     }
   ],
   "feedback_logs": [],

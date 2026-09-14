@@ -1,12 +1,48 @@
 {
-  "updated_at": "2026-09-13 20:12:00",
+  "updated_at": "2026-09-14 03:01:41",
   "stats": {
-    "total_seen": 190,
+    "total_seen": 192,
     "high_value_count": 51,
-    "deduplicated_count": 140,
+    "deduplicated_count": 142,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26091109IOXD82",
+      "title": "10頁圖文書籍排版",
+      "url": "https://www.tasker.com.tw/cases/TK26091109IOXD82",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-14 03:01:38"
+    },
+    {
+      "post_id": "https://www.104.com.tw/job/934m6",
+      "title": "【短影音企劃剪輯】（遠端／接案合作）",
+      "url": "https://www.104.com.tw/job/934m6",
+      "source": "104 (典珀有限公司)",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-14 03:01:38"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26091011YZTM35",
       "title": "運動短影音",
@@ -857,42 +893,6 @@
       "post_id": "https://www.tasker.com.tw/cases/TK26082922BNYG86",
       "title": "長期合作中歐旅遊短影音9比16剪輯師徵求剪映CapCut熟手",
       "url": "https://www.tasker.com.tw/cases/TK26082922BNYG86",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-03 02:39:26"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26083022LZUE11",
-      "title": "文件與產品資料整理建檔服務",
-      "url": "https://www.tasker.com.tw/cases/TK26083022LZUE11",
-      "source": "Tasker出任務",
-      "score": 70,
-      "x_budget": 90,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.9,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
-      "created_at": "2026-09-03 02:39:26"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26083109VREX01",
-      "title": "AI 短影音生成與剪輯",
-      "url": "https://www.tasker.com.tw/cases/TK26083109VREX01",
       "source": "Tasker出任務",
       "score": 65,
       "x_budget": 80,

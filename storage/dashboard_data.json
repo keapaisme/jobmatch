@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-09-15 03:04:05",
+  "updated_at": "2026-09-15 10:54:45",
   "stats": {
-    "total_seen": 194,
+    "total_seen": 195,
     "high_value_count": 51,
-    "deduplicated_count": 144,
+    "deduplicated_count": 145,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.ptt.cc/bbs/HelpBuy/M.1789442175.A.16E.html",
+      "title": "[代買] MAMAMOO 2026 WORLD TOUR in TAIPEI",
+      "url": "https://www.ptt.cc/bbs/HelpBuy/M.1789442175.A.16E.html",
+      "source": "PTT-HelpBuy",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-15 10:54:43"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26091114QMGU55",
       "title": "我需要一位幫我畫Excel表格可以列印劃撥單的",
@@ -876,24 +894,6 @@
       "title": "KOL行銷企劃（遠端 / 兼職）",
       "url": "https://www.104.com.tw/job/95j1k",
       "source": "104 (學籽文創有限公司)",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-03 10:35:30"
-    },
-    {
-      "post_id": "https://www.ptt.cc/bbs/HelpBuy/M.1788430369.A.95D.html",
-      "title": "[代買] T-ARA Fancon 2026 in Taiwan",
-      "url": "https://www.ptt.cc/bbs/HelpBuy/M.1788430369.A.95D.html",
-      "source": "PTT-HelpBuy",
       "score": 65,
       "x_budget": 80,
       "y_urgency": 0.0,

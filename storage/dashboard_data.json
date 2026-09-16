@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-09-16 10:44:17",
+  "updated_at": "2026-09-16 15:59:48",
   "stats": {
-    "total_seen": 200,
+    "total_seen": 201,
     "high_value_count": 51,
-    "deduplicated_count": 150,
+    "deduplicated_count": 151,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.chickpt.com.tw/job-Dlk0lRNL81G2",
+      "title": "行政協助｜資料整理與文件建檔（單次任務）",
+      "url": "https://www.chickpt.com.tw/job-Dlk0lRNL81G2",
+      "source": "小雞上工-電腦",
+      "score": 70,
+      "x_budget": 90,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.9,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
+      "created_at": "2026-09-16 15:59:46"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26091611KITL81",
       "title": "AI自動化流程與資料處理開發",
@@ -875,24 +893,6 @@
       "post_id": "https://www.tasker.com.tw/cases/TK26090114XNHS67",
       "title": "AI 短影音影片製作",
       "url": "https://www.tasker.com.tw/cases/TK26090114XNHS67",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-04 10:26:29"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26090115LUJY54",
-      "title": "寵物電商 社群短影音剪輯",
-      "url": "https://www.tasker.com.tw/cases/TK26090115LUJY54",
       "source": "Tasker出任務",
       "score": 65,
       "x_budget": 80,

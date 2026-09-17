@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-09-16 20:47:37",
+  "updated_at": "2026-09-17 03:03:34",
   "stats": {
-    "total_seen": 201,
+    "total_seen": 202,
     "high_value_count": 51,
-    "deduplicated_count": 151,
+    "deduplicated_count": 152,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26091316DUIU43",
+      "title": "我是LKK(非工程背景), 想找人教我使用AI, 不是純聊天",
+      "url": "https://www.tasker.com.tw/cases/TK26091316DUIU43",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-17 03:03:33"
+    },
     {
       "post_id": "https://www.chickpt.com.tw/job-Dlk0lRNL81G2",
       "title": "行政協助｜資料整理與文件建檔（單次任務）",
@@ -875,24 +893,6 @@
       "post_id": "https://www.tasker.com.tw/cases/TK26090112XZPR97",
       "title": "台中運動醫學營運企劃書整理與排版成稿",
       "url": "https://www.tasker.com.tw/cases/TK26090112XZPR97",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-04 10:26:29"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26090114XNHS67",
-      "title": "AI 短影音影片製作",
-      "url": "https://www.tasker.com.tw/cases/TK26090114XNHS67",
       "source": "Tasker出任務",
       "score": 65,
       "x_budget": 80,

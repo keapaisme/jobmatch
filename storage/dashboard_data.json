@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-09-18 02:51:11",
+  "updated_at": "2026-09-18 10:27:07",
   "stats": {
-    "total_seen": 204,
+    "total_seen": 205,
     "high_value_count": 51,
-    "deduplicated_count": 154,
+    "deduplicated_count": 155,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.chickpt.com.tw/job-LkK5YD7vp1VW",
+      "title": "（待議價）研究所推甄備審｜視覺設計與文字排版",
+      "url": "https://www.chickpt.com.tw/job-LkK5YD7vp1VW",
+      "source": "小雞上工-電腦",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-18 10:27:05"
+    },
     {
       "post_id": "https://www.104.com.tw/job/8z2e5",
       "title": "短影音拍攝人員｜論件計酬｜長期合作",
@@ -875,24 +893,6 @@
       "post_id": "https://www.tasker.com.tw/cases/TK26052811PLCR42",
       "title": "Adobe InDesign 書冊排版設計師｜交通部公路局台9線工程紀錄書冊，約190–200頁",
       "url": "https://www.tasker.com.tw/cases/TK26052811PLCR42",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-05 09:52:44"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26081920YDLD99",
-      "title": "Adobe InDesign 書冊排版設計師｜交通部公路局台9線工程紀錄書冊，約190–200頁",
-      "url": "https://www.tasker.com.tw/cases/TK26081920YDLD99",
       "source": "Tasker出任務",
       "score": 65,
       "x_budget": 80,

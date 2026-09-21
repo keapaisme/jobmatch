@@ -1,5 +1,5 @@
 {
-  "last_weekly_renewal": 1789385705.700847,
+  "last_weekly_renewal": 1789991311.591624,
   "keyword_scores": {
     "AI": {
       "score": 20,
@@ -202,7 +202,7 @@
       "created_at": 1788145051.974836
     },
     "ai_planning": {
-      "score": 100,
+      "score": 102,
       "category": "general",
       "created_at": 1788145099.9435544
     },

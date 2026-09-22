@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-09-22 02:59:06",
+  "updated_at": "2026-09-22 10:50:39",
   "stats": {
-    "total_seen": 210,
+    "total_seen": 211,
     "high_value_count": 51,
-    "deduplicated_count": 160,
+    "deduplicated_count": 161,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.chickpt.com.tw/job-BxV0bKjVqmjE",
+      "title": "文字美編排版人員",
+      "url": "https://www.chickpt.com.tw/job-BxV0bKjVqmjE",
+      "source": "小雞上工-電腦",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-22 10:50:37"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26091820SZAY17",
       "title": "兒童營隊活動企劃",
@@ -888,24 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
       "created_at": "2026-09-08 10:28:59"
-    },
-    {
-      "post_id": "https://www.104.com.tw/job/7pk28",
-      "title": "紀州庵文學森林_活動企劃工讀",
-      "url": "https://www.104.com.tw/job/7pk28",
-      "source": "104 (財團法人台灣文學發展基金會市定古蹟紀州庵及新館營運管理處)",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-08 02:45:40"
     }
   ],
   "feedback_logs": [],

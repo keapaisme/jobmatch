@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-09-22 20:47:52",
+  "updated_at": "2026-09-23 03:00:05",
   "stats": {
-    "total_seen": 211,
+    "total_seen": 212,
     "high_value_count": 51,
-    "deduplicated_count": 161,
+    "deduplicated_count": 162,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.104.com.tw/job/8x6i0",
+      "title": "【上市建材】品牌影音演員Brand Video Actor/Presenter（中文／English／Thai／Vietnamese，擇一）《論件計酬 $8,000 - $12,000》",
+      "url": "https://www.104.com.tw/job/8x6i0",
+      "source": "104 (KD_科定企業股份有限公司)",
+      "score": 78,
+      "x_budget": 80,
+      "y_urgency": 1.0,
+      "vector": {
+        "urgency": 0.75,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q1 | X:+6(自動化) Y:+5(報酬) | 商機座標 Dash-X:80 Dash-Y:+1.0",
+      "created_at": "2026-09-23 03:00:03"
+    },
     {
       "post_id": "https://www.chickpt.com.tw/job-BxV0bKjVqmjE",
       "title": "文字美編排版人員",
@@ -876,24 +894,6 @@
       "title": "將數字輸入Excel",
       "url": "https://www.tasker.com.tw/cases/TK26090508VIPO04",
       "source": "Tasker出任務",
-      "score": 70,
-      "x_budget": 90,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.9,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
-      "created_at": "2026-09-08 10:28:59"
-    },
-    {
-      "post_id": "https://www.chickpt.com.tw/job-YZM1R49rE0RG",
-      "title": "資料整理與文件建檔",
-      "url": "https://www.chickpt.com.tw/job-YZM1R49rE0RG",
-      "source": "小雞上工-電腦",
       "score": 70,
       "x_budget": 90,
       "y_urgency": 0.0,

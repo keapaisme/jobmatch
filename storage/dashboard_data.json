@@ -1,12 +1,48 @@
 {
-  "updated_at": "2026-09-23 03:00:05",
+  "updated_at": "2026-09-23 10:39:35",
   "stats": {
-    "total_seen": 212,
+    "total_seen": 214,
     "high_value_count": 51,
-    "deduplicated_count": 162,
+    "deduplicated_count": 164,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.104.com.tw/job/965ja",
+      "title": "品牌行銷企劃｜兼職・部分遠端｜3年以上經驗",
+      "url": "https://www.104.com.tw/job/965ja",
+      "source": "104 (模法雲端行銷股份有限公司)",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-23 10:39:33"
+    },
+    {
+      "post_id": "https://www.104.com.tw/job/965lu",
+      "title": "電商企劃｜兼職・部分遠端｜3年以上經驗",
+      "url": "https://www.104.com.tw/job/965lu",
+      "source": "104 (模法雲端行銷股份有限公司)",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-23 10:39:33"
+    },
     {
       "post_id": "https://www.104.com.tw/job/8x6i0",
       "title": "【上市建材】品牌影音演員Brand Video Actor/Presenter（中文／English／Thai／Vietnamese，擇一）《論件計酬 $8,000 - $12,000》",
@@ -857,42 +893,6 @@
       "post_id": "https://www.tasker.com.tw/cases/TK26090517BZSX95",
       "title": "台北企業Excel優化與Python/VBA自動化教學顧問",
       "url": "https://www.tasker.com.tw/cases/TK26090517BZSX95",
-      "source": "Tasker出任務",
-      "score": 70,
-      "x_budget": 90,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.9,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
-      "created_at": "2026-09-08 10:28:59"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26090516JQMG26",
-      "title": "資料建檔",
-      "url": "https://www.tasker.com.tw/cases/TK26090516JQMG26",
-      "source": "Tasker出任務",
-      "score": 70,
-      "x_budget": 90,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.9,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
-      "created_at": "2026-09-08 10:28:59"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26090508VIPO04",
-      "title": "將數字輸入Excel",
-      "url": "https://www.tasker.com.tw/cases/TK26090508VIPO04",
       "source": "Tasker出任務",
       "score": 70,
       "x_budget": 90,

@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-09-24 21:04:20",
+  "updated_at": "2026-09-25 03:06:25",
   "stats": {
-    "total_seen": 220,
+    "total_seen": 221,
     "high_value_count": 51,
-    "deduplicated_count": 170,
+    "deduplicated_count": 171,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.104.com.tw/job/8iu5z",
+      "title": "短影音 & 美宣海報 製作(編輯/後製）",
+      "url": "https://www.104.com.tw/job/8iu5z",
+      "source": "104 (博證物理治療所)",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-25 03:06:22"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26092112WBYA49",
       "title": "服裝設計 Illustrator 完稿｜現有效果圖轉工廠可用 AI 生產檔",
@@ -875,24 +893,6 @@
       "post_id": "https://www.tasker.com.tw/cases/TK26090618HEJF55",
       "title": "台北24小時自助桌遊館短影音宣傳拍攝與剪輯",
       "url": "https://www.tasker.com.tw/cases/TK26090618HEJF55",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-09 15:48:55"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26090916MGPJ38",
-      "title": "短影音製作",
-      "url": "https://www.tasker.com.tw/cases/TK26090916MGPJ38",
       "source": "Tasker出任務",
       "score": 65,
       "x_budget": 80,

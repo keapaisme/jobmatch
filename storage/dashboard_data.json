@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-09-27 16:16:13",
+  "updated_at": "2026-09-27 20:45:32",
   "stats": {
-    "total_seen": 221,
+    "total_seen": 222,
     "high_value_count": 51,
-    "deduplicated_count": 171,
+    "deduplicated_count": 172,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.104.com.tw/job/967kl",
+      "title": "ART TAIPEI 2026台北藝博 國外畫廊翻譯人員招募 (韓語、日語)10/12(一) 截止收件",
+      "url": "https://www.104.com.tw/job/967kl",
+      "source": "104 (社團法人中華民國畫廊協會)",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-27 20:45:30"
+    },
     {
       "post_id": "https://www.104.com.tw/job/8iu5z",
       "title": "短影音 & 美宣海報 製作(編輯/後製）",
@@ -888,24 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-09-10 02:46:30"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26090618HEJF55",
-      "title": "台北24小時自助桌遊館短影音宣傳拍攝與剪輯",
-      "url": "https://www.tasker.com.tw/cases/TK26090618HEJF55",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-09 15:48:55"
     }
   ],
   "feedback_logs": [],

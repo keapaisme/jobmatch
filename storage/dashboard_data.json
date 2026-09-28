@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-09-28 12:43:39",
+  "updated_at": "2026-09-28 22:53:30",
   "stats": {
-    "total_seen": 223,
+    "total_seen": 224,
     "high_value_count": 51,
-    "deduplicated_count": 173,
+    "deduplicated_count": 174,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26092510IMDY98",
+      "title": "品牌IG社群內容企劃",
+      "url": "https://www.tasker.com.tw/cases/TK26092510IMDY98",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-28 22:53:28"
+    },
     {
       "post_id": "https://www.chickpt.com.tw/job-kE80L2PaO1qJ",
       "title": "【單次任務】資料行政協助／文件整理與建檔",
@@ -887,24 +905,6 @@
         "freshness": 0.95
       },
       "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
-      "created_at": "2026-09-10 02:46:30"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26090707AXMR23",
-      "title": "泰語教學",
-      "url": "https://www.tasker.com.tw/cases/TK26090707AXMR23",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-09-10 02:46:30"
     }
   ],

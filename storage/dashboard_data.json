@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-09-28 03:14:09",
+  "updated_at": "2026-09-28 12:43:39",
   "stats": {
-    "total_seen": 222,
+    "total_seen": 223,
     "high_value_count": 51,
-    "deduplicated_count": 172,
+    "deduplicated_count": 173,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.chickpt.com.tw/job-kE80L2PaO1qJ",
+      "title": "【單次任務】資料行政協助／文件整理與建檔",
+      "url": "https://www.chickpt.com.tw/job-kE80L2PaO1qJ",
+      "source": "小雞上工-電腦",
+      "score": 70,
+      "x_budget": 90,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.9,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
+      "created_at": "2026-09-28 12:43:38"
+    },
     {
       "post_id": "https://www.104.com.tw/job/967kl",
       "title": "ART TAIPEI 2026台北藝博 國外畫廊翻譯人員招募 (韓語、日語)10/12(一) 截止收件",
@@ -875,24 +893,6 @@
       "post_id": "https://www.tasker.com.tw/cases/TK26090707AXMR23",
       "title": "泰語教學",
       "url": "https://www.tasker.com.tw/cases/TK26090707AXMR23",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-10 02:46:30"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26090709PKMP39",
-      "title": "短影音需求",
-      "url": "https://www.tasker.com.tw/cases/TK26090709PKMP39",
       "source": "Tasker出任務",
       "score": 65,
       "x_budget": 80,

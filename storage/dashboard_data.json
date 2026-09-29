@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-09-29 12:00:31",
+  "updated_at": "2026-09-29 18:01:09",
   "stats": {
-    "total_seen": 227,
+    "total_seen": 228,
     "high_value_count": 51,
-    "deduplicated_count": 177,
+    "deduplicated_count": 178,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26092620ONZZ28",
+      "title": "短影音拍攝人員-桃園",
+      "url": "https://www.tasker.com.tw/cases/TK26092620ONZZ28",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-09-29 18:01:07"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26092815EKIO51",
       "title": "標案簡報人",
@@ -876,24 +894,6 @@
       "title": "剪輯25支直式短影音",
       "url": "https://www.tasker.com.tw/cases/TK26091015OWKX41",
       "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-10 15:43:48"
-    },
-    {
-      "post_id": "https://www.ptt.cc/bbs/HelpBuy/M.1789052984.A.D7C.html",
-      "title": "[英國] ★Selfridges折10% CHLOE/BALENCIAGA/BALMAIN/WEDGWOOD/SMEG",
-      "url": "https://www.ptt.cc/bbs/HelpBuy/M.1789052984.A.D7C.html",
-      "source": "PTT-HelpBuy",
       "score": 65,
       "x_budget": 80,
       "y_urgency": 0.0,

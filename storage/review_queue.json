@@ -1,34 +1,10 @@
 {
   "rv_001": {
-    "title": "口碑行銷企劃（接案、全遠端）",
-    "url": "https://www.104.com.tw/job/96asa",
-    "x_score": 6,
+    "title": "n8n AI 自動化流程開發服務",
+    "url": "https://www.tasker.com.tw/cases/TK26093022FFNE22",
+    "x_score": 8,
     "y_score": 0,
     "quadrant": "Q4",
-    "category": "ai_planning"
-  },
-  "rv_002": {
-    "title": "網紅行銷企劃（接案、全遠端）",
-    "url": "https://www.104.com.tw/job/96apa",
-    "x_score": 6,
-    "y_score": 0,
-    "quadrant": "Q4",
-    "category": "ai_planning"
-  },
-  "rv_003": {
-    "title": "200 吋大螢幕的酷炫交通安全互動體驗活動！希望徵求熟悉 Scratch / WebAI /",
-    "url": "https://www.tasker.com.tw/cases/TK26092715YNSN75",
-    "x_score": 6,
-    "y_score": 0,
-    "quadrant": "Q4",
-    "category": "ai_planning"
-  },
-  "rv_004": {
-    "title": "幼稚園短影音與網路行銷",
-    "url": "https://www.tasker.com.tw/cases/TK26093011SIEK16",
-    "x_score": 6,
-    "y_score": 0,
-    "quadrant": "Q4",
-    "category": "ai_planning"
+    "category": "data_automation"
   }
 }

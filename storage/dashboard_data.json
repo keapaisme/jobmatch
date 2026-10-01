@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-10-01 03:45:49",
+  "updated_at": "2026-10-01 12:18:28",
   "stats": {
-    "total_seen": 233,
+    "total_seen": 234,
     "high_value_count": 51,
-    "deduplicated_count": 183,
+    "deduplicated_count": 184,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.chickpt.com.tw/job-Dlk0lRGWe1G2",
+      "title": "資料整理與建檔協助",
+      "url": "https://www.chickpt.com.tw/job-Dlk0lRGWe1G2",
+      "source": "小雞上工-電腦",
+      "score": 70,
+      "x_budget": 90,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.9,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
+      "created_at": "2026-10-01 12:18:27"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26093022FFNE22",
       "title": "n8n AI 自動化流程開發服務",
@@ -888,24 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-09-13 15:30:31"
-    },
-    {
-      "post_id": "https://www.chickpt.com.tw/job-NLjmnYj8b03D",
-      "title": "電子學實驗教學(tinkercad)",
-      "url": "https://www.chickpt.com.tw/job-NLjmnYj8b03D",
-      "source": "小雞上工-電腦",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-13 10:59:48"
     }
   ],
   "feedback_logs": [],

@@ -1,12 +1,102 @@
 {
-  "updated_at": "2026-10-01 22:16:09",
+  "updated_at": "2026-10-02 03:44:40",
   "stats": {
-    "total_seen": 234,
+    "total_seen": 239,
     "high_value_count": 51,
-    "deduplicated_count": 184,
+    "deduplicated_count": 189,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26092513DEKB74",
+      "title": "品牌商家社群內容企劃",
+      "url": "https://www.tasker.com.tw/cases/TK26092513DEKB74",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-02 03:44:36"
+    },
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26092702KRID59",
+      "title": "短影音剪輯｜長期合作｜每月約6～10支",
+      "url": "https://www.tasker.com.tw/cases/TK26092702KRID59",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-02 03:44:36"
+    },
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26092702DRBK95",
+      "title": "短影音內容企劃／腳本發想｜長期合作",
+      "url": "https://www.tasker.com.tw/cases/TK26092702DRBK95",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-02 03:44:36"
+    },
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26092702IUMQ24",
+      "title": "3分鐘內短影音*2",
+      "url": "https://www.tasker.com.tw/cases/TK26092702IUMQ24",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-02 03:44:36"
+    },
+    {
+      "post_id": "https://www.104.com.tw/job/92fef",
+      "title": "短影音剪輯接案夥伴｜遠端可",
+      "url": "https://www.104.com.tw/job/92fef",
+      "source": "104 (拾叁月空間量子有限公司)",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-02 03:44:36"
+    },
     {
       "post_id": "https://www.chickpt.com.tw/job-Dlk0lRGWe1G2",
       "title": "資料整理與建檔協助",
@@ -816,96 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-09-13 20:11:57"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26091216WKWZ31",
-      "title": "造型氣球教學與互動活動",
-      "url": "https://www.tasker.com.tw/cases/TK26091216WKWZ31",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-13 20:11:57"
-    },
-    {
-      "post_id": "https://www.chickpt.com.tw/job-Qkz1GyNkw08v",
-      "title": "幫我設計手機排版",
-      "url": "https://www.chickpt.com.tw/job-Qkz1GyNkw08v",
-      "source": "小雞上工-電腦",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-13 20:11:57"
-    },
-    {
-      "post_id": "https://www.ptt.cc/bbs/HelpBuy/M.1789319630.A.158.html",
-      "title": "[代買] 金智媛 WONEDERLAND IN TAIPEI",
-      "url": "https://www.ptt.cc/bbs/HelpBuy/M.1789319630.A.158.html",
-      "source": "PTT-HelpBuy",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-13 20:11:57"
-    },
-    {
-      "post_id": "https://www.ptt.cc/bbs/soho/M.1789317975.A.49E.html",
-      "title": "[合作] 合作心理師（育兒書審閱／IG貼文審閱／ai背書）",
-      "url": "https://www.ptt.cc/bbs/soho/M.1789317975.A.49E.html",
-      "source": "PTT-SOHO",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-13 20:11:57"
-    },
-    {
-      "post_id": "https://www.chickpt.com.tw/job-VK8m2AzMn0wo",
-      "title": "臨時找明天中午11:30-12:30 幫忙線上電腦教學",
-      "url": "https://www.chickpt.com.tw/job-VK8m2AzMn0wo",
-      "source": "小雞上工-電腦",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-13 15:30:31"
     }
   ],
   "feedback_logs": [],

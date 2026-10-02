@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-10-02 11:46:48",
+  "updated_at": "2026-10-02 17:19:22",
   "stats": {
-    "total_seen": 240,
+    "total_seen": 241,
     "high_value_count": 51,
-    "deduplicated_count": 190,
+    "deduplicated_count": 191,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.104.com.tw/job/8ovzi",
+      "title": "明新學校財團法人明新科技大學【華語文教學中心】誠徵【兼任華語教師】",
+      "url": "https://www.104.com.tw/job/8ovzi",
+      "source": "104 (明新學校財團法人明新科技大學_華語文教學中心)",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-02 17:19:20"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26092917NRLG18",
       "title": "Bilingual Design & Business Assistant in Taipei",
@@ -876,24 +894,6 @@
       "title": "10頁圖文書籍排版",
       "url": "https://www.tasker.com.tw/cases/TK26091109IOXD82",
       "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-14 03:01:38"
-    },
-    {
-      "post_id": "https://www.104.com.tw/job/934m6",
-      "title": "【短影音企劃剪輯】（遠端／接案合作）",
-      "url": "https://www.104.com.tw/job/934m6",
-      "source": "104 (典珀有限公司)",
       "score": 65,
       "x_budget": 80,
       "y_urgency": 0.0,

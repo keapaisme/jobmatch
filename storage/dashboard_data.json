@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-10-04 03:57:09",
+  "updated_at": "2026-10-04 11:41:50",
   "stats": {
-    "total_seen": 242,
+    "total_seen": 243,
     "high_value_count": 51,
-    "deduplicated_count": 192,
+    "deduplicated_count": 193,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.chickpt.com.tw/job-YqRmJXdQj5Zd",
+      "title": "幫我做PPT",
+      "url": "https://www.chickpt.com.tw/job-YqRmJXdQj5Zd",
+      "source": "小雞上工-電腦",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-04 11:41:48"
+    },
     {
       "post_id": "https://www.chickpt.com.tw/job-pwY0qpq7x5dM",
       "title": "Word及Exel資料處理",
@@ -887,24 +905,6 @@
         "freshness": 0.95
       },
       "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
-      "created_at": "2026-09-14 11:35:05"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26091114QJXD28",
-      "title": "排版英文版永續報告書",
-      "url": "https://www.tasker.com.tw/cases/TK26091114QJXD28",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-09-14 11:35:05"
     }
   ],

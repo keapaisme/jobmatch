@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-10-04 11:41:50",
+  "updated_at": "2026-10-04 16:20:54",
   "stats": {
-    "total_seen": 243,
+    "total_seen": 244,
     "high_value_count": 51,
-    "deduplicated_count": 193,
+    "deduplicated_count": 194,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26100116LSGV37",
+      "title": "電商商品短影音剪輯與設計",
+      "url": "https://www.tasker.com.tw/cases/TK26100116LSGV37",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-04 16:20:52"
+    },
     {
       "post_id": "https://www.chickpt.com.tw/job-YqRmJXdQj5Zd",
       "title": "幫我做PPT",
@@ -888,24 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-09-15 10:54:43"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26091114QMGU55",
-      "title": "我需要一位幫我畫Excel表格可以列印劃撥單的",
-      "url": "https://www.tasker.com.tw/cases/TK26091114QMGU55",
-      "source": "Tasker出任務",
-      "score": 70,
-      "x_budget": 90,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.9,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
-      "created_at": "2026-09-14 11:35:05"
     }
   ],
   "feedback_logs": [],

@@ -1,12 +1,48 @@
 {
-  "updated_at": "2026-10-05 13:24:43",
+  "updated_at": "2026-10-05 23:38:28",
   "stats": {
-    "total_seen": 247,
+    "total_seen": 249,
     "high_value_count": 51,
-    "deduplicated_count": 197,
+    "deduplicated_count": 199,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26100222EWXF81",
+      "title": "實體活動一條龍企劃執行",
+      "url": "https://www.tasker.com.tw/cases/TK26100222EWXF81",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-05 23:38:27"
+    },
+    {
+      "post_id": "https://www.104.com.tw/job/8dtts",
+      "title": "活動企劃專案人員",
+      "url": "https://www.104.com.tw/job/8dtts",
+      "source": "104 (創點整合行銷有限公司)",
+      "score": 78,
+      "x_budget": 80,
+      "y_urgency": 1.0,
+      "vector": {
+        "urgency": 0.75,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q1 | X:+6(自動化) Y:+5(報酬) | 商機座標 Dash-X:80 Dash-Y:+1.0",
+      "created_at": "2026-10-05 23:38:25"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26100208UUXV87",
       "title": "衣服排版",
@@ -870,42 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
       "created_at": "2026-09-16 10:44:15"
-    },
-    {
-      "post_id": "https://www.chickpt.com.tw/job-QJlmXoP9x0XZ",
-      "title": "日本旅遊書 直式PPT CANVA內容製作及美編",
-      "url": "https://www.chickpt.com.tw/job-QJlmXoP9x0XZ",
-      "source": "小雞上工-電腦",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-16 10:44:15"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26091301FBWX63",
-      "title": "影片剪輯教學",
-      "url": "https://www.tasker.com.tw/cases/TK26091301FBWX63",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-16 03:00:27"
     }
   ],
   "feedback_logs": [],

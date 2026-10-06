@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-10-05 23:38:28",
+  "updated_at": "2026-10-06 04:30:24",
   "stats": {
-    "total_seen": 249,
+    "total_seen": 250,
     "high_value_count": 51,
-    "deduplicated_count": 199,
+    "deduplicated_count": 200,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26100308QWNX71",
+      "title": "Apple 使用小技巧短影音",
+      "url": "https://www.tasker.com.tw/cases/TK26100308QWNX71",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-06 04:30:22"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26100222EWXF81",
       "title": "實體活動一條龍企劃執行",
@@ -888,24 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
       "created_at": "2026-09-16 15:59:46"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26091611KITL81",
-      "title": "AI自動化流程與資料處理開發",
-      "url": "https://www.tasker.com.tw/cases/TK26091611KITL81",
-      "source": "Tasker出任務",
-      "score": 70,
-      "x_budget": 90,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.9,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
-      "created_at": "2026-09-16 10:44:15"
     }
   ],
   "feedback_logs": [],

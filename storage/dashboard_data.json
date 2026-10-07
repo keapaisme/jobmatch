@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-10-07 03:56:12",
+  "updated_at": "2026-10-07 12:32:00",
   "stats": {
-    "total_seen": 250,
+    "total_seen": 251,
     "high_value_count": 51,
-    "deduplicated_count": 200,
+    "deduplicated_count": 201,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.chickpt.com.tw/job-BxV0bK9eAmjE",
+      "title": "大陸網感妝化妝教學",
+      "url": "https://www.chickpt.com.tw/job-BxV0bK9eAmjE",
+      "source": "小雞上工-電腦",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-07 12:31:58"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26100308QWNX71",
       "title": "Apple 使用小技巧短影音",
@@ -888,24 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-09-17 03:03:33"
-    },
-    {
-      "post_id": "https://www.chickpt.com.tw/job-Dlk0lRNL81G2",
-      "title": "行政協助｜資料整理與文件建檔（單次任務）",
-      "url": "https://www.chickpt.com.tw/job-Dlk0lRNL81G2",
-      "source": "小雞上工-電腦",
-      "score": 70,
-      "x_budget": 90,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.9,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
-      "created_at": "2026-09-16 15:59:46"
     }
   ],
   "feedback_logs": [],

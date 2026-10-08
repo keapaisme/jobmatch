@@ -1,12 +1,84 @@
 {
-  "updated_at": "2026-10-07 22:34:27",
+  "updated_at": "2026-10-08 04:09:26",
   "stats": {
-    "total_seen": 251,
+    "total_seen": 255,
     "high_value_count": 51,
-    "deduplicated_count": 201,
+    "deduplicated_count": 205,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26100319OBWV64",
+      "title": "製做ai影片 像億家水電工程一樣",
+      "url": "https://www.tasker.com.tw/cases/TK26100319OBWV64",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-08 04:09:22"
+    },
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26100414RQKJ63",
+      "title": "線上課程廣告短影音剪輯",
+      "url": "https://www.tasker.com.tw/cases/TK26100414RQKJ63",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-08 04:09:22"
+    },
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26100503RYWE34",
+      "title": "優化AI工作看板",
+      "url": "https://www.tasker.com.tw/cases/TK26100503RYWE34",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-08 04:09:22"
+    },
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26100509OGUP98",
+      "title": "AI 賀圖",
+      "url": "https://www.tasker.com.tw/cases/TK26100509OGUP98",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-08 04:09:22"
+    },
     {
       "post_id": "https://www.chickpt.com.tw/job-BxV0bK9eAmjE",
       "title": "大陸網感妝化妝教學",
@@ -834,78 +906,6 @@
       },
       "ai_reason": "四象限 Q1 | X:+6(自動化) Y:+5(報酬) | 商機座標 Dash-X:80 Dash-Y:+1.0",
       "created_at": "2026-09-19 02:49:29"
-    },
-    {
-      "post_id": "https://www.chickpt.com.tw/job-LkK5YD7vp1VW",
-      "title": "（待議價）研究所推甄備審｜視覺設計與文字排版",
-      "url": "https://www.chickpt.com.tw/job-LkK5YD7vp1VW",
-      "source": "小雞上工-電腦",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-18 10:27:05"
-    },
-    {
-      "post_id": "https://www.104.com.tw/job/8z2e5",
-      "title": "短影音拍攝人員｜論件計酬｜長期合作",
-      "url": "https://www.104.com.tw/job/8z2e5",
-      "source": "104 (布克網路行銷)",
-      "score": 78,
-      "x_budget": 80,
-      "y_urgency": 1.0,
-      "vector": {
-        "urgency": 0.75,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q1 | X:+6(自動化) Y:+5(報酬) | 商機座標 Dash-X:80 Dash-Y:+1.0",
-      "created_at": "2026-09-17 20:53:26"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26091412DPDW73",
-      "title": "AI行銷短影音製作",
-      "url": "https://www.tasker.com.tw/cases/TK26091412DPDW73",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-17 10:51:32"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26091316DUIU43",
-      "title": "我是LKK(非工程背景), 想找人教我使用AI, 不是純聊天",
-      "url": "https://www.tasker.com.tw/cases/TK26091316DUIU43",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-17 03:03:33"
     }
   ],
   "feedback_logs": [],

@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-10-10 16:50:37",
+  "updated_at": "2026-10-10 21:03:23",
   "stats": {
-    "total_seen": 257,
+    "total_seen": 258,
     "high_value_count": 51,
-    "deduplicated_count": 207,
+    "deduplicated_count": 208,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.104.com.tw/job/96ku0",
+      "title": "可遠端｜健身品牌行銷企劃｜社群經營與品牌推廣｜承攬制",
+      "url": "https://www.104.com.tw/job/96ku0",
+      "source": "104 (宇力康有限公司)",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-10 21:03:22"
+    },
     {
       "post_id": "https://www.chickpt.com.tw/job-qr3mAo2Vg57P",
       "title": "背板平面設計｜需交付 AI 原始檔及印刷完稿",
@@ -888,24 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-09-21 11:48:31"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26091801UGOZ16",
-      "title": "平面攝影師、活動企劃協助人員",
-      "url": "https://www.tasker.com.tw/cases/TK26091801UGOZ16",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-21 02:59:07"
     }
   ],
   "feedback_logs": [],

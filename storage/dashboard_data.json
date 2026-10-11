@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-10-10 21:03:23",
+  "updated_at": "2026-10-11 03:34:40",
   "stats": {
-    "total_seen": 258,
+    "total_seen": 259,
     "high_value_count": 51,
-    "deduplicated_count": 208,
+    "deduplicated_count": 209,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.chickpt.com.tw/job-OB31x3YVym9l",
+      "title": "10/14-10/15 下載檔案，還有實體的畫框排版",
+      "url": "https://www.chickpt.com.tw/job-OB31x3YVym9l",
+      "source": "小雞上工-電腦",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-11 03:34:38"
+    },
     {
       "post_id": "https://www.104.com.tw/job/96ku0",
       "title": "可遠端｜健身品牌行銷企劃｜社群經營與品牌推廣｜承攬制",
@@ -876,24 +894,6 @@
       "title": "兒童營隊活動企劃",
       "url": "https://www.tasker.com.tw/cases/TK26091820SZAY17",
       "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-21 11:48:31"
-    },
-    {
-      "post_id": "https://www.104.com.tw/job/962n8",
-      "title": "兼職短影音剪輯（可遠端）人員",
-      "url": "https://www.104.com.tw/job/962n8",
-      "source": "104 (新竹市議員劉彥伶服務處)",
       "score": 65,
       "x_budget": 80,
       "y_urgency": 0.0,

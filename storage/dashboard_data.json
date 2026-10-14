@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-10-13 22:13:56",
+  "updated_at": "2026-10-14 03:14:54",
   "stats": {
-    "total_seen": 264,
+    "total_seen": 265,
     "high_value_count": 51,
-    "deduplicated_count": 214,
+    "deduplicated_count": 215,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.104.com.tw/job/92xnz",
+      "title": "環境教育企劃專員＿思想飛揚教育有限公司\t（桃青局職場對接計畫）",
+      "url": "https://www.104.com.tw/job/92xnz",
+      "source": "104 (【企業專案招募】104未來無限整合招募中心)",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-14 03:14:52"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26101013WVGO49",
       "title": "Ai圖片",
@@ -888,24 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-09-24 02:49:53"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26092023MRZS89",
-      "title": "把我用AI初步完成的草圖轉為可以印刷的高解析檔案，另外依照需求設計新的海報",
-      "url": "https://www.tasker.com.tw/cases/TK26092023MRZS89",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-23 15:59:38"
     }
   ],
   "feedback_logs": [],

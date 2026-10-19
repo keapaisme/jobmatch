@@ -1,12 +1,66 @@
 {
-  "updated_at": "2026-10-19 02:57:04",
+  "updated_at": "2026-10-19 11:55:14",
   "stats": {
-    "total_seen": 273,
+    "total_seen": 276,
     "high_value_count": 51,
-    "deduplicated_count": 223,
+    "deduplicated_count": 226,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26101617TIRM37",
+      "title": "手機短影音拍攝剪輯10支",
+      "url": "https://www.tasker.com.tw/cases/TK26101617TIRM37",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-19 11:55:10"
+    },
+    {
+      "post_id": "https://www.chickpt.com.tw/job-OB31x3JQ7m9l",
+      "title": "有在Ebay成功上架 售出 回收款項的 求教學",
+      "url": "https://www.chickpt.com.tw/job-OB31x3JQ7m9l",
+      "source": "小雞上工-電腦",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-19 11:55:10"
+    },
+    {
+      "post_id": "https://www.chickpt.com.tw/job-DoVmkM9ye5XL",
+      "title": "把圖檔轉Ai檔",
+      "url": "https://www.chickpt.com.tw/job-DoVmkM9ye5XL",
+      "source": "小雞上工-電腦",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-19 11:55:10"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26101517BXON14",
       "title": "活動企劃人員/活動助理",
@@ -852,60 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-09-29 12:00:29"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26092702XFEC48",
-      "title": "短影音拍攝夥伴｜台北｜長期合作",
-      "url": "https://www.tasker.com.tw/cases/TK26092702XFEC48",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-29 12:00:29"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26092621MQUL40",
-      "title": "短影音攝影師｜桃園大溪",
-      "url": "https://www.tasker.com.tw/cases/TK26092621MQUL40",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-29 12:00:29"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26092510IMDY98",
-      "title": "品牌IG社群內容企劃",
-      "url": "https://www.tasker.com.tw/cases/TK26092510IMDY98",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-28 22:53:28"
     }
   ],
   "feedback_logs": [],

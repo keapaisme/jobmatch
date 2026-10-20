@@ -1,12 +1,66 @@
 {
-  "updated_at": "2026-10-20 03:06:52",
+  "updated_at": "2026-10-20 10:50:49",
   "stats": {
-    "total_seen": 276,
+    "total_seen": 279,
     "high_value_count": 51,
-    "deduplicated_count": 226,
+    "deduplicated_count": 229,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26102003ZUSN26",
+      "title": "遠端一對一柔術教學",
+      "url": "https://www.tasker.com.tw/cases/TK26102003ZUSN26",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-20 10:50:48"
+    },
+    {
+      "post_id": "https://www.104.com.tw/job/96w4n",
+      "title": "專案執行 / 社群計畫企劃 (Project Specialist)",
+      "url": "https://www.104.com.tw/job/96w4n",
+      "source": "104 (財團法人台灣網路資訊中心)",
+      "score": 78,
+      "x_budget": 80,
+      "y_urgency": 1.0,
+      "vector": {
+        "urgency": 0.75,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q1 | X:+6(自動化) Y:+5(報酬) | 商機座標 Dash-X:80 Dash-Y:+1.0",
+      "created_at": "2026-10-20 10:50:46"
+    },
+    {
+      "post_id": "https://www.104.com.tw/job/8xk1l",
+      "title": "[PP] (兼職接案 / 遠端WFH) 社群短影音剪輯",
+      "url": "https://www.104.com.tw/job/8xk1l",
+      "source": "104 (新加坡商約會吧股份有限公司台灣分公司)",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-20 10:50:46"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26101617TIRM37",
       "title": "手機短影音拍攝剪輯10支",
@@ -852,60 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-09-30 11:48:57"
-    },
-    {
-      "post_id": "https://www.104.com.tw/job/96asa",
-      "title": "口碑行銷企劃（接案、全遠端）",
-      "url": "https://www.104.com.tw/job/96asa",
-      "source": "104 (迅猛龍行銷有限公司)",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-30 11:48:56"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26092620ONZZ28",
-      "title": "短影音拍攝人員-桃園",
-      "url": "https://www.tasker.com.tw/cases/TK26092620ONZZ28",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-29 18:01:07"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26092815EKIO51",
-      "title": "標案簡報人",
-      "url": "https://www.tasker.com.tw/cases/TK26092815EKIO51",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-29 12:00:29"
     }
   ],
   "feedback_logs": [],

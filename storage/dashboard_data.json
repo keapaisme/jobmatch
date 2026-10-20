@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-10-20 16:15:06",
+  "updated_at": "2026-10-20 21:10:46",
   "stats": {
-    "total_seen": 279,
+    "total_seen": 280,
     "high_value_count": 51,
-    "deduplicated_count": 229,
+    "deduplicated_count": 230,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26102102VQDK18",
+      "title": "LINE／粉專／TG AI客服建置",
+      "url": "https://www.tasker.com.tw/cases/TK26102102VQDK18",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-20 21:10:45"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26102003ZUSN26",
       "title": "遠端一對一柔術教學",
@@ -876,24 +894,6 @@
       "title": "200 吋大螢幕的酷炫交通安全互動體驗活動！希望徵求熟悉 Scratch / WebAI /",
       "url": "https://www.tasker.com.tw/cases/TK26092715YNSN75",
       "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-30 11:48:57"
-    },
-    {
-      "post_id": "https://www.104.com.tw/job/96apa",
-      "title": "網紅行銷企劃（接案、全遠端）",
-      "url": "https://www.104.com.tw/job/96apa",
-      "source": "104 (迅猛龍行銷有限公司)",
       "score": 65,
       "x_budget": 80,
       "y_urgency": 0.0,

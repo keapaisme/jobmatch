@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-10-21 03:01:13",
+  "updated_at": "2026-10-21 11:02:52",
   "stats": {
-    "total_seen": 280,
+    "total_seen": 281,
     "high_value_count": 51,
-    "deduplicated_count": 230,
+    "deduplicated_count": 231,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26102109HTJN54",
+      "title": "自動化設備現場施工",
+      "url": "https://www.tasker.com.tw/cases/TK26102109HTJN54",
+      "source": "Tasker出任務",
+      "score": 55,
+      "x_budget": 60,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.6,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+2(自動化) Y:+0(報酬) | 商機座標 Dash-X:60 Dash-Y:+0.0",
+      "created_at": "2026-10-21 11:02:50"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26102102VQDK18",
       "title": "LINE／粉專／TG AI客服建置",
@@ -875,24 +893,6 @@
       "post_id": "https://www.tasker.com.tw/cases/TK26093011SIEK16",
       "title": "幼稚園短影音與網路行銷",
       "url": "https://www.tasker.com.tw/cases/TK26093011SIEK16",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-30 11:48:57"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26092715YNSN75",
-      "title": "200 吋大螢幕的酷炫交通安全互動體驗活動！希望徵求熟悉 Scratch / WebAI /",
-      "url": "https://www.tasker.com.tw/cases/TK26092715YNSN75",
       "source": "Tasker出任務",
       "score": 65,
       "x_budget": 80,

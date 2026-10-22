@@ -1,10 +1,34 @@
 {
   "rv_001": {
-    "title": "自動化設備現場施工",
-    "url": "https://www.tasker.com.tw/cases/TK26102109HTJN54",
-    "x_score": 2,
+    "title": "10/28  【HL 3v3 夜光聯賽｜誠徵「夜間賽事運動攝影/短影音剪輯」",
+    "url": "https://www.chickpt.com.tw/job-k6z0rxpMe1pW",
+    "x_score": 6,
     "y_score": 0,
     "quadrant": "Q4",
-    "category": "data_automation"
+    "category": "ai_planning"
+  },
+  "rv_002": {
+    "title": "想製作一系列AI短片",
+    "url": "https://www.tasker.com.tw/cases/TK26101916KHGT92",
+    "x_score": 6,
+    "y_score": 0,
+    "quadrant": "Q4",
+    "category": "ai_planning"
+  },
+  "rv_003": {
+    "title": "電商商品製作 使用AI工具 大量生成",
+    "url": "https://www.tasker.com.tw/cases/TK26101914TNQX08",
+    "x_score": 6,
+    "y_score": 0,
+    "quadrant": "Q4",
+    "category": "ai_planning"
+  },
+  "rv_004": {
+    "title": "短期美術設計及企劃設計",
+    "url": "https://www.tasker.com.tw/cases/TK26101914FYIC02",
+    "x_score": 6,
+    "y_score": 0,
+    "quadrant": "Q4",
+    "category": "ai_planning"
   }
 }

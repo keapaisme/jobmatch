@@ -1,12 +1,84 @@
 {
-  "updated_at": "2026-10-22 03:00:13",
+  "updated_at": "2026-10-22 11:01:54",
   "stats": {
-    "total_seen": 281,
+    "total_seen": 285,
     "high_value_count": 51,
-    "deduplicated_count": 231,
+    "deduplicated_count": 235,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26101914FYIC02",
+      "title": "短期美術設計及企劃設計",
+      "url": "https://www.tasker.com.tw/cases/TK26101914FYIC02",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-22 11:01:50"
+    },
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26101914TNQX08",
+      "title": "電商商品製作 使用AI工具 大量生成",
+      "url": "https://www.tasker.com.tw/cases/TK26101914TNQX08",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-22 11:01:50"
+    },
+    {
+      "post_id": "https://www.tasker.com.tw/cases/TK26101916KHGT92",
+      "title": "想製作一系列AI短片",
+      "url": "https://www.tasker.com.tw/cases/TK26101916KHGT92",
+      "source": "Tasker出任務",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-22 11:01:50"
+    },
+    {
+      "post_id": "https://www.chickpt.com.tw/job-k6z0rxpMe1pW",
+      "title": "10/28  【HL 3v3 夜光聯賽｜誠徵「夜間賽事運動攝影/短影音剪輯」",
+      "url": "https://www.chickpt.com.tw/job-k6z0rxpMe1pW",
+      "source": "小雞上工-電腦",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-22 11:01:50"
+    },
     {
       "post_id": "https://www.tasker.com.tw/cases/TK26102109HTJN54",
       "title": "自動化設備現場施工",
@@ -834,78 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-10-02 03:44:36"
-    },
-    {
-      "post_id": "https://www.104.com.tw/job/92fef",
-      "title": "短影音剪輯接案夥伴｜遠端可",
-      "url": "https://www.104.com.tw/job/92fef",
-      "source": "104 (拾叁月空間量子有限公司)",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-10-02 03:44:36"
-    },
-    {
-      "post_id": "https://www.chickpt.com.tw/job-Dlk0lRGWe1G2",
-      "title": "資料整理與建檔協助",
-      "url": "https://www.chickpt.com.tw/job-Dlk0lRGWe1G2",
-      "source": "小雞上工-電腦",
-      "score": 70,
-      "x_budget": 90,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.9,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
-      "created_at": "2026-10-01 12:18:27"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26093022FFNE22",
-      "title": "n8n AI 自動化流程開發服務",
-      "url": "https://www.tasker.com.tw/cases/TK26093022FFNE22",
-      "source": "Tasker出任務",
-      "score": 70,
-      "x_budget": 90,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.9,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
-      "created_at": "2026-09-30 17:29:19"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26093011SIEK16",
-      "title": "幼稚園短影音與網路行銷",
-      "url": "https://www.tasker.com.tw/cases/TK26093011SIEK16",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-09-30 11:48:57"
     }
   ],
   "feedback_logs": [],

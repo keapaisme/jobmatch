@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-10-27 03:25:46",
+  "updated_at": "2026-10-27 11:29:40",
   "stats": {
-    "total_seen": 288,
+    "total_seen": 289,
     "high_value_count": 51,
-    "deduplicated_count": 238,
+    "deduplicated_count": 239,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.chickpt.com.tw/job-pwY0qpz3k5dM",
+      "title": "AI 公益服務產品測試",
+      "url": "https://www.chickpt.com.tw/job-pwY0qpz3k5dM",
+      "source": "小雞上工-電腦",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-27 11:29:38"
+    },
     {
       "post_id": "https://www.chickpt.com.tw/job-qr3mAoRoA57P",
       "title": "3份高中模考題排版整理",
@@ -888,24 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-10-02 11:46:47"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26092513DEKB74",
-      "title": "品牌商家社群內容企劃",
-      "url": "https://www.tasker.com.tw/cases/TK26092513DEKB74",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-10-02 03:44:36"
     }
   ],
   "feedback_logs": [],

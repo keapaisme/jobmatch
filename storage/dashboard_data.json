@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-10-27 21:44:39",
+  "updated_at": "2026-10-28 03:41:42",
   "stats": {
-    "total_seen": 289,
+    "total_seen": 290,
     "high_value_count": 51,
-    "deduplicated_count": 239,
+    "deduplicated_count": 240,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.chickpt.com.tw/job-XqY089dVzmn8",
+      "title": "求協助排版人員",
+      "url": "https://www.chickpt.com.tw/job-XqY089dVzmn8",
+      "source": "小雞上工-電腦",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-28 03:41:39"
+    },
     {
       "post_id": "https://www.chickpt.com.tw/job-pwY0qpz3k5dM",
       "title": "AI 公益服務產品測試",
@@ -888,24 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-10-02 17:19:20"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26092917NRLG18",
-      "title": "Bilingual Design & Business Assistant in Taipei",
-      "url": "https://www.tasker.com.tw/cases/TK26092917NRLG18",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-10-02 11:46:47"
     }
   ],
   "feedback_logs": [],

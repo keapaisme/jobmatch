@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-10-30 12:01:09",
+  "updated_at": "2026-10-30 21:53:48",
   "stats": {
-    "total_seen": 293,
+    "total_seen": 294,
     "high_value_count": 51,
-    "deduplicated_count": 243,
+    "deduplicated_count": 244,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.ptt.cc/bbs/HelpBuy/M.1793375397.A.710.html",
+      "title": "[英國] ★Selfridges折10% EVE LOM/TUMI/MAISON FRANCIS KURKDJIAN",
+      "url": "https://www.ptt.cc/bbs/HelpBuy/M.1793375397.A.710.html",
+      "source": "PTT-HelpBuy",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-10-30 21:53:47"
+    },
     {
       "post_id": "https://www.ptt.cc/bbs/soho/M.1791898824.A.B3E.html",
       "title": "[合作] 徵求幣圈兼職合作推廣夥伴｜自動化投資",
@@ -888,24 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-10-05 03:42:18"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26100116LSGV37",
-      "title": "電商商品短影音剪輯與設計",
-      "url": "https://www.tasker.com.tw/cases/TK26100116LSGV37",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-10-04 16:20:52"
     }
   ],
   "feedback_logs": [],

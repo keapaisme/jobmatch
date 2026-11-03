@@ -1,12 +1,66 @@
 {
-  "updated_at": "2026-11-03 00:24:26",
+  "updated_at": "2026-11-03 13:30:30",
   "stats": {
-    "total_seen": 298,
+    "total_seen": 301,
     "high_value_count": 51,
-    "deduplicated_count": 248,
+    "deduplicated_count": 251,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.chickpt.com.tw/job-jJo59npXz0zw",
+      "title": "社群企劃小編 規劃2篇社群貼文",
+      "url": "https://www.chickpt.com.tw/job-jJo59npXz0zw",
+      "source": "小雞上工-電腦",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-11-03 13:30:28"
+    },
+    {
+      "post_id": "https://www.chickpt.com.tw/job-6y71v6wdN1nw",
+      "title": "excel 會計資訊導論作業",
+      "url": "https://www.chickpt.com.tw/job-6y71v6wdN1nw",
+      "source": "小雞上工-電腦",
+      "score": 70,
+      "x_budget": 90,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.9,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
+      "created_at": "2026-11-03 13:30:28"
+    },
+    {
+      "post_id": "https://www.104.com.tw/job/8n5ie",
+      "title": "Indesign美編排版",
+      "url": "https://www.104.com.tw/job/8n5ie",
+      "source": "104 (泉湧美術印刷企業有限公司)",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-11-03 13:30:28"
+    },
     {
       "post_id": "https://www.chickpt.com.tw/job-LkK5YDyLM1VW",
       "title": "建築結構學單次教學（靜定梁..等）",
@@ -852,60 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-10-08 04:09:22"
-    },
-    {
-      "post_id": "https://www.chickpt.com.tw/job-BxV0bK9eAmjE",
-      "title": "大陸網感妝化妝教學",
-      "url": "https://www.chickpt.com.tw/job-BxV0bK9eAmjE",
-      "source": "小雞上工-電腦",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-10-07 12:31:58"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26100308QWNX71",
-      "title": "Apple 使用小技巧短影音",
-      "url": "https://www.tasker.com.tw/cases/TK26100308QWNX71",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-10-06 04:30:22"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26100222EWXF81",
-      "title": "實體活動一條龍企劃執行",
-      "url": "https://www.tasker.com.tw/cases/TK26100222EWXF81",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-10-05 23:38:27"
     }
   ],
   "feedback_logs": [],

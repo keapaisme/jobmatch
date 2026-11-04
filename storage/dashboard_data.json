@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-11-04 04:34:14",
+  "updated_at": "2026-11-04 13:41:39",
   "stats": {
-    "total_seen": 303,
+    "total_seen": 304,
     "high_value_count": 51,
-    "deduplicated_count": 253,
+    "deduplicated_count": 254,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.104.com.tw/job/97ahg",
+      "title": "全遠端包月合作設計師（平面設計／短影音剪輯）",
+      "url": "https://www.104.com.tw/job/97ahg",
+      "source": "104 (旭成國際有限公司)",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-11-04 13:41:37"
+    },
     {
       "post_id": "https://www.ptt.cc/bbs/HelpBuy/M.1793761905.A.EE6.html",
       "title": "[代買] OH MY GIRL FANMEETING IN TAIPEI",
@@ -875,24 +893,6 @@
       "post_id": "https://www.tasker.com.tw/cases/TK26100319OBWV64",
       "title": "製做ai影片 像億家水電工程一樣",
       "url": "https://www.tasker.com.tw/cases/TK26100319OBWV64",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-10-08 04:09:22"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26100414RQKJ63",
-      "title": "線上課程廣告短影音剪輯",
-      "url": "https://www.tasker.com.tw/cases/TK26100414RQKJ63",
       "source": "Tasker出任務",
       "score": 65,
       "x_budget": 80,

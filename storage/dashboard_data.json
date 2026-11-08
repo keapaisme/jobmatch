@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-11-07 21:22:29",
+  "updated_at": "2026-11-08 04:00:36",
   "stats": {
-    "total_seen": 309,
+    "total_seen": 310,
     "high_value_count": 51,
-    "deduplicated_count": 259,
+    "deduplicated_count": 260,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.104.com.tw/job/94802",
+      "title": "遠端/旅遊影音社群小編/行銷企劃(績效獎勵金另計)",
+      "url": "https://www.104.com.tw/job/94802",
+      "source": "104 (金湶豹有限公司)",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-11-08 04:00:34"
+    },
     {
       "post_id": "https://www.ptt.cc/bbs/HelpBuy/M.1794068833.A.EAC.html",
       "title": "[代買] FTISLAND CONCERT 'FTSODE' IN TAIPEI",
@@ -888,24 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-10-13 00:04:20"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26100712AUIC36",
-      "title": "CPAS商品情境短影音製作",
-      "url": "https://www.tasker.com.tw/cases/TK26100712AUIC36",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-10-12 03:58:44"
     }
   ],
   "feedback_logs": [],

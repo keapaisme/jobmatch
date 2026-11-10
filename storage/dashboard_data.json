@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-11-09 14:58:39",
+  "updated_at": "2026-11-10 01:06:21",
   "stats": {
-    "total_seen": 312,
+    "total_seen": 313,
     "high_value_count": 51,
-    "deduplicated_count": 262,
+    "deduplicated_count": 263,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.chickpt.com.tw/job-VK8m2AE4x0wo",
+      "title": "餐飲趨勢課期中ppt製作 僅需10頁以上即可 可用AI生成",
+      "url": "https://www.chickpt.com.tw/job-VK8m2AE4x0wo",
+      "source": "小雞上工-電腦",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-11-10 01:06:19"
+    },
     {
       "post_id": "https://www.ptt.cc/bbs/HelpBuy/M.1794151979.A.F28.html",
       "title": "[英國] ★換季折扣 COACH/ALLSAINTS/LONGCHAMP/TORY BURCH/RIMOWA",
@@ -876,24 +894,6 @@
       "title": "Ai圖片",
       "url": "https://www.tasker.com.tw/cases/TK26101013WVGO49",
       "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-10-13 13:24:42"
-    },
-    {
-      "post_id": "https://www.chickpt.com.tw/job-RlbmPYxV218K",
-      "title": "影片剪輯 講解型影片，需要搭配AI生圖或是片段",
-      "url": "https://www.chickpt.com.tw/job-RlbmPYxV218K",
-      "source": "小雞上工-電腦",
       "score": 65,
       "x_budget": 80,
       "y_urgency": 0.0,

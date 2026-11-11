@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-11-11 04:20:57",
+  "updated_at": "2026-11-11 13:27:36",
   "stats": {
-    "total_seen": 314,
+    "total_seen": 315,
     "high_value_count": 51,
-    "deduplicated_count": 264,
+    "deduplicated_count": 265,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.104.com.tw/job/97i69",
+      "title": "AI 動作捕捉專案助理｜AI Motion Capture Project Assistant",
+      "url": "https://www.104.com.tw/job/97i69",
+      "source": "104 (FPT_艾福提資訊有限公司)",
+      "score": 78,
+      "x_budget": 80,
+      "y_urgency": 1.0,
+      "vector": {
+        "urgency": 0.75,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q1 | X:+6(自動化) Y:+5(報酬) | 商機座標 Dash-X:80 Dash-Y:+1.0",
+      "created_at": "2026-11-11 13:27:34"
+    },
     {
       "post_id": "https://www.chickpt.com.tw/job-RlbmPneK258K",
       "title": "做一份PPT",
@@ -888,24 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-10-15 10:45:40"
-    },
-    {
-      "post_id": "https://www.104.com.tw/job/92xnz",
-      "title": "環境教育企劃專員＿思想飛揚教育有限公司\t（桃青局職場對接計畫）",
-      "url": "https://www.104.com.tw/job/92xnz",
-      "source": "104 (【企業專案招募】104未來無限整合招募中心)",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-10-14 03:14:52"
     }
   ],
   "feedback_logs": [],

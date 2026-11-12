@@ -1,12 +1,48 @@
 {
-  "updated_at": "2026-11-12 06:13:43",
+  "updated_at": "2026-11-12 19:28:09",
   "stats": {
-    "total_seen": 316,
+    "total_seen": 318,
     "high_value_count": 51,
-    "deduplicated_count": 266,
+    "deduplicated_count": 268,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.chickpt.com.tw/job-VK8m2AE2x0wo",
+      "title": "希望能寫一個呈報的公司企劃書",
+      "url": "https://www.chickpt.com.tw/job-VK8m2AE2x0wo",
+      "source": "小雞上工-電腦",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-11-12 19:28:07"
+    },
+    {
+      "post_id": "https://www.chickpt.com.tw/job-DoVmkMOak5XL",
+      "title": "Google 表單設計＋試算表一對一教學",
+      "url": "https://www.chickpt.com.tw/job-DoVmkMOak5XL",
+      "source": "小雞上工-電腦",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-11-12 19:28:07"
+    },
     {
       "post_id": "https://www.chickpt.com.tw/job-yMa5BDM7vmJN",
       "title": "11/14國一數學教學",
@@ -858,42 +894,6 @@
       "title": "刊物-行銷企劃",
       "url": "https://www.tasker.com.tw/cases/TK26101214ZZCP97",
       "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-10-15 10:45:40"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26101215GDCG65",
-      "title": "短影音純剪輯（會粵語優先）",
-      "url": "https://www.tasker.com.tw/cases/TK26101215GDCG65",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-10-15 10:45:40"
-    },
-    {
-      "post_id": "https://www.chickpt.com.tw/job-R240jkkpOmnJ",
-      "title": "PPT動畫製作（進階）",
-      "url": "https://www.chickpt.com.tw/job-R240jkkpOmnJ",
-      "source": "小雞上工-電腦",
       "score": 65,
       "x_budget": 80,
       "y_urgency": 0.0,

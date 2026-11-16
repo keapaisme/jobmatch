@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-11-16 04:27:11",
+  "updated_at": "2026-11-16 14:35:11",
   "stats": {
-    "total_seen": 319,
+    "total_seen": 320,
     "high_value_count": 51,
-    "deduplicated_count": 269,
+    "deduplicated_count": 270,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.chickpt.com.tw/job-yMa5BDLnqmJN",
+      "title": "服裝修改＋縫紉教學",
+      "url": "https://www.chickpt.com.tw/job-yMa5BDLnqmJN",
+      "source": "小雞上工-電腦",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-11-16 14:35:10"
+    },
     {
       "post_id": "https://www.ptt.cc/bbs/Soft_Job/M.1794673657.A.706.html",
       "title": "AI coding agent 紅了後對公司的影響觀察",
@@ -888,24 +906,6 @@
       },
       "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-10-15 20:52:02"
-    },
-    {
-      "post_id": "https://www.tasker.com.tw/cases/TK26101213SEGQ43",
-      "title": "烘焙產品月製短影音",
-      "url": "https://www.tasker.com.tw/cases/TK26101213SEGQ43",
-      "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-10-15 10:45:40"
     }
   ],
   "feedback_logs": [],

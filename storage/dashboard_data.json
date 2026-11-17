@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-11-16 14:35:11",
+  "updated_at": "2026-11-17 01:29:01",
   "stats": {
-    "total_seen": 320,
+    "total_seen": 321,
     "high_value_count": 51,
-    "deduplicated_count": 270,
+    "deduplicated_count": 271,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.chickpt.com.tw/job-BZQ1oo42z1qx",
+      "title": "幫我做簡報跟螢幕錄影報告",
+      "url": "https://www.chickpt.com.tw/job-BZQ1oo42z1qx",
+      "source": "小雞上工-電腦",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-11-17 01:29:00"
+    },
     {
       "post_id": "https://www.chickpt.com.tw/job-yMa5BDLnqmJN",
       "title": "服裝修改＋縫紉教學",
@@ -887,24 +905,6 @@
         "freshness": 0.95
       },
       "ai_reason": "四象限 Q4 | X:+8(自動化) Y:+0(報酬) | 商機座標 Dash-X:90 Dash-Y:+0.0",
-      "created_at": "2026-10-15 20:52:02"
-    },
-    {
-      "post_id": "https://www.chickpt.com.tw/job-6y71v6pLK1nw",
-      "title": "2026/11/16(一)、11/17(二)、11/24(二)、11/25(三)，每日9:30-18:00，陪聽ai課時數共30小時。",
-      "url": "https://www.chickpt.com.tw/job-6y71v6pLK1nw",
-      "source": "小雞上工-電腦",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
       "created_at": "2026-10-15 20:52:02"
     }
   ],

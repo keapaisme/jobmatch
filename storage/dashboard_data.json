@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-11-25 01:52:03",
+  "updated_at": "2026-11-25 16:41:47",
   "stats": {
-    "total_seen": 324,
+    "total_seen": 325,
     "high_value_count": 51,
-    "deduplicated_count": 274,
+    "deduplicated_count": 275,
     "feedback_count": 0
   },
   "opportunities": [
+    {
+      "post_id": "https://www.chickpt.com.tw/job-Qkz1GyAkx08v",
+      "title": "AI 對話回覆品質評分（中文＋英文）",
+      "url": "https://www.chickpt.com.tw/job-Qkz1GyAkx08v",
+      "source": "小雞上工-電腦",
+      "score": 65,
+      "x_budget": 80,
+      "y_urgency": 0.0,
+      "vector": {
+        "urgency": 0.5,
+        "budget": 0.8,
+        "skill_fit": 0.8,
+        "low_competition": 0.75,
+        "freshness": 0.95
+      },
+      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
+      "created_at": "2026-11-25 16:41:45"
+    },
     {
       "post_id": "https://www.ptt.cc/bbs/HelpBuy/M.1795346898.A.E6F.html",
       "title": "[代買] 2027 VERIVERY CONCERT TAIPEI",
@@ -876,24 +894,6 @@
       "title": "手機短影音拍攝剪輯10支",
       "url": "https://www.tasker.com.tw/cases/TK26101617TIRM37",
       "source": "Tasker出任務",
-      "score": 65,
-      "x_budget": 80,
-      "y_urgency": 0.0,
-      "vector": {
-        "urgency": 0.5,
-        "budget": 0.8,
-        "skill_fit": 0.8,
-        "low_competition": 0.75,
-        "freshness": 0.95
-      },
-      "ai_reason": "四象限 Q4 | X:+6(自動化) Y:+0(報酬) | 商機座標 Dash-X:80 Dash-Y:+0.0",
-      "created_at": "2026-10-19 11:55:10"
-    },
-    {
-      "post_id": "https://www.chickpt.com.tw/job-OB31x3JQ7m9l",
-      "title": "有在Ebay成功上架 售出 回收款項的 求教學",
-      "url": "https://www.chickpt.com.tw/job-OB31x3JQ7m9l",
-      "source": "小雞上工-電腦",
       "score": 65,
       "x_budget": 80,
       "y_urgency": 0.0,
